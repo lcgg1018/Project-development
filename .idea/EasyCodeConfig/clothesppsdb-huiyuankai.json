@@ -1,0 +1,31 @@
+{
+  "name" : "Huiyuankai",
+  "comment" : "会员卡信息表",
+  "fullColumn" : [ {
+    "name" : "hykkh",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "hykdjid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
+    "name" : "hyktime",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  } ],
+  "pkColumn" : null,
+  "otherColumn" : null,
+  "savePackageName" : "com.code",
+  "savePath" : "./src/main/java/com/code",
+  "saveModelName" : "DistributionSystem"
+}

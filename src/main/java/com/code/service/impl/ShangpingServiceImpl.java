@@ -1,0 +1,79 @@
+package com.code.service.impl;
+
+import com.code.entity.Shangping;
+import com.code.dao.ShangpingDao;
+import com.code.service.ShangpingService;
+import org.springframework.stereotype.Service;
+
+import javax.annotation.Resource;
+import java.util.List;
+
+/**
+ * (Shangping)表服务实现类
+ *
+ * @author yap
+ * @since 2020-04-18 16:52:56
+ */
+@Service("shangpingService")
+public class ShangpingServiceImpl implements ShangpingService {
+    @Resource
+    private ShangpingDao shangpingDao;
+
+    /**
+     * 通过ID查询单条数据
+     *
+     * @param spid 主键
+     * @return 实例对象
+     */
+    @Override
+    public Shangping queryById(String spid) {
+        return this.shangpingDao.queryById(spid);
+    }
+
+    /**
+     * 查询多条数据
+     *
+     * @param 
+     * @param 
+     * @return 对象列表
+     */
+    @Override
+    public List<Shangping> selectAll(){
+        return this.shangpingDao.selectAll();
+    }
+
+    /**
+     * 新增数据
+     *
+     * @param shangping 实例对象
+     * @return 实例对象
+     */
+    @Override
+    public Shangping insert(Shangping shangping) {
+        this.shangpingDao.insert(shangping);
+        return shangping;
+    }
+
+    /**
+     * 修改数据
+     *
+     * @param shangping 实例对象
+     * @return 实例对象
+     */
+    @Override
+    public Shangping update(Shangping shangping) {
+        this.shangpingDao.update(shangping);
+        return this.queryById(shangping.getSpid());
+    }
+
+    /**
+     * 通过主键删除数据
+     *
+     * @param spid 主键
+     * @return 是否成功
+     */
+    @Override
+    public boolean deleteById(String spid) {
+        return this.shangpingDao.deleteById(spid) > 0;
+    }
+}

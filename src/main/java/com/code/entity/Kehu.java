@@ -1,0 +1,111 @@
+package com.code.entity;
+
+import java.io.Serializable;
+
+/**
+ * (Kehu)实体类
+ *
+ * @author yap
+ * @since 2020-04-18 16:52:54
+ */
+public class Kehu implements Serializable {
+    private static final long serialVersionUID = -86050737502470106L;
+    /**
+    * 客户编号
+    */
+    private String id;
+    /**
+    * 客户等级
+    */
+    private String grade;
+    /**
+    * 客户名称
+    */
+    private String name;
+    /**
+    * 类别编号
+    */
+    private String cid;
+    /**
+    * 销售人员
+    */
+    private String sell;
+    /**
+    * 联系人
+    */
+    private String contact;
+    /**
+    * 手机
+    */
+    private String mobilePhone;
+    /**
+    * 送货地址
+    */
+    private String address;
+
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getGrade() {
+        return grade;
+    }
+
+    public void setGrade(String grade) {
+        this.grade = grade;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public String getCid() {
+        return cid;
+    }
+
+    public void setCid(String cid) {
+        this.cid = cid;
+    }
+
+    public String getSell() {
+        return sell;
+    }
+
+    public void setSell(String sell) {
+        this.sell = sell;
+    }
+
+    public String getContact() {
+        return contact;
+    }
+
+    public void setContact(String contact) {
+        this.contact = contact;
+    }
+
+    public String getMobilePhone() {
+        return mobilePhone;
+    }
+
+    public void setMobilePhone(String mobilePhone) {
+        this.mobilePhone = mobilePhone;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+}
