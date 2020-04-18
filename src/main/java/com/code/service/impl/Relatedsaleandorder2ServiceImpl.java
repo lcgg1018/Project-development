@@ -12,7 +12,7 @@ import java.util.List;
  * (Relatedsaleandorder2)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-18 23:26:31
  */
 @Service("relatedsaleandorder2Service")
 public class Relatedsaleandorder2ServiceImpl implements Relatedsaleandorder2Service {
@@ -22,12 +22,12 @@ public class Relatedsaleandorder2ServiceImpl implements Relatedsaleandorder2Serv
     /**
      * 通过ID查询单条数据
      *
-     * @param  主键
+     * @param rid 主键
      * @return 实例对象
      */
     @Override
-    public Relatedsaleandorder2 queryById( ) {
-        return this.relatedsaleandorder2Dao.queryById();
+    public Relatedsaleandorder2 queryById(Integer rid) {
+        return this.relatedsaleandorder2Dao.queryById(rid);
     }
 
     /**
@@ -63,17 +63,17 @@ public class Relatedsaleandorder2ServiceImpl implements Relatedsaleandorder2Serv
     @Override
     public Relatedsaleandorder2 update(Relatedsaleandorder2 relatedsaleandorder2) {
         this.relatedsaleandorder2Dao.update(relatedsaleandorder2);
-        return this.queryById(relatedsaleandorder2.get());
+        return this.queryById(relatedsaleandorder2.getRid());
     }
 
     /**
      * 通过主键删除数据
      *
-     * @param  主键
+     * @param rid 主键
      * @return 是否成功
      */
     @Override
-    public boolean deleteById( ) {
-        return this.relatedsaleandorder2Dao.deleteById() > 0;
+    public boolean deleteById(Integer rid) {
+        return this.relatedsaleandorder2Dao.deleteById(rid) > 0;
     }
 }

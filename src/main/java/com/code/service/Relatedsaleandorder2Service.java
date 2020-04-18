@@ -7,17 +7,17 @@ import java.util.List;
  * (Relatedsaleandorder2)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-18 23:26:31
  */
 public interface Relatedsaleandorder2Service {
 
     /**
      * 通过ID查询单条数据
      *
-     * @param  主键
+     * @param rid 主键
      * @return 实例对象
      */
-    Relatedsaleandorder2 queryById( );
+    Relatedsaleandorder2 queryById(Integer rid);
 
     /**
      * 查询多条数据
@@ -47,9 +47,9 @@ public interface Relatedsaleandorder2Service {
     /**
      * 通过主键删除数据
      *
-     * @param  主键
+     * @param rid 主键
      * @return 是否成功
      */
-    boolean deleteById( );
+    boolean deleteById(Integer rid);
 
 }

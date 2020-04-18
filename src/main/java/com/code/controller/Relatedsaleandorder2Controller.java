@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Relatedsaleandorder2)表控制层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-18 23:26:31
  */
 @RestController
 @RequestMapping("relatedsaleandorder2")
@@ -28,7 +28,7 @@ public class Relatedsaleandorder2Controller {
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public Relatedsaleandorder2 selectOne( id) {
+    public Relatedsaleandorder2 selectOne(Integer id) {
         return this.relatedsaleandorder2Service.queryById(id);
     }
     

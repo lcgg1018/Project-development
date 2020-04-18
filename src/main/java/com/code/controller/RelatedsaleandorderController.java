@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Relatedsaleandorder)表控制层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-18 23:26:00
  */
 @RestController
 @RequestMapping("relatedsaleandorder")
