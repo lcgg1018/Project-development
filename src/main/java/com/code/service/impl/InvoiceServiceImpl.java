@@ -12,7 +12,7 @@ import java.util.List;
  * (Invoice)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 23:12:43
+ * @since 2020-04-18 23:17:18
  */
 @Service("invoiceService")
 public class InvoiceServiceImpl implements InvoiceService {
@@ -22,12 +22,12 @@ public class InvoiceServiceImpl implements InvoiceService {
     /**
      * 通过ID查询单条数据
      *
-     * @param  主键
+     * @param id 主键
      * @return 实例对象
      */
     @Override
-    public Invoice queryById( ) {
-        return this.invoiceDao.queryById();
+    public Invoice queryById(Integer id) {
+        return this.invoiceDao.queryById(id);
     }
 
     /**
@@ -63,17 +63,17 @@ public class InvoiceServiceImpl implements InvoiceService {
     @Override
     public Invoice update(Invoice invoice) {
         this.invoiceDao.update(invoice);
-        return this.queryById(invoice.get());
+        return this.queryById(invoice.getId());
     }
 
     /**
      * 通过主键删除数据
      *
-     * @param  主键
+     * @param id 主键
      * @return 是否成功
      */
     @Override
-    public boolean deleteById( ) {
-        return this.invoiceDao.deleteById() > 0;
+    public boolean deleteById(Integer id) {
+        return this.invoiceDao.deleteById(id) > 0;
     }
 }

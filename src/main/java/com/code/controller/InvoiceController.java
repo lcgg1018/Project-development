@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Invoice)表控制层
  *
  * @author yap
- * @since 2020-04-18 23:12:43
+ * @since 2020-04-18 23:17:18
  */
 @RestController
 @RequestMapping("invoice")
@@ -28,7 +28,7 @@ public class InvoiceController {
      * @return 单条数据
      */
     @GetMapping("selectOne")
-    public Invoice selectOne( id) {
+    public Invoice selectOne(Integer id) {
         return this.invoiceService.queryById(id);
     }
     
