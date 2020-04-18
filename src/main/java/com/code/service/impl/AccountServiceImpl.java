@@ -12,7 +12,7 @@ import java.util.List;
  * (Account)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:51:02
+ * @since 2020-04-19 02:16:42
  */
 @Service("accountService")
 public class AccountServiceImpl implements AccountService {
@@ -40,6 +40,17 @@ public class AccountServiceImpl implements AccountService {
     @Override
     public List<Account> selectAll(){
         return this.accountDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param account 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Account> queryAll(Account account){
+          return  this.accountDao.queryAll(account);
     }
 
     /**

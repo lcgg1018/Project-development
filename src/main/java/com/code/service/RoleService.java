@@ -7,7 +7,7 @@ import java.util.List;
  * (Role)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 public interface RoleService {
 
@@ -35,6 +35,14 @@ public interface RoleService {
      * @return 实例对象
      */
     Role insert(Role role);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param role 实例对象
+     * @return 对象列表
+     */
+    List<Role> queryAll(Role role);
 
     /**
      * 修改数据

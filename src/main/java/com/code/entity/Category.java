@@ -6,10 +6,10 @@ import java.io.Serializable;
  * 客户类别(Category)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:40
  */
 public class Category implements Serializable {
-    private static final long serialVersionUID = -54519282873452463L;
+    private static final long serialVersionUID = -96080337786070315L;
     /**
     * 类别编号
     */

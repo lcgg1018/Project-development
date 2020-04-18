@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Account)实体类
  *
  * @author yap
- * @since 2020-04-18 16:51:02
+ * @since 2020-04-19 02:16:42
  */
 public class Account implements Serializable {
-    private static final long serialVersionUID = 799190851398667960L;
+    private static final long serialVersionUID = 862304726555581157L;
     /**
     * 账户id
     */

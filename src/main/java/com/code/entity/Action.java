@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Action)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:42
  */
 public class Action implements Serializable {
-    private static final long serialVersionUID = 589919042159673441L;
+    private static final long serialVersionUID = -62032266208681020L;
     /**
     * 权限id
     */

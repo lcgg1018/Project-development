@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Kehu)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public class Kehu implements Serializable {
-    private static final long serialVersionUID = -86050737502470106L;
+    private static final long serialVersionUID = -23526044327921403L;
     /**
     * 客户编号
     */

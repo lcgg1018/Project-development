@@ -7,7 +7,7 @@ import java.util.List;
  * 客户类别(Category)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:40
  */
 public interface CategoryService {
 
@@ -35,6 +35,14 @@ public interface CategoryService {
      * @return 实例对象
      */
     Category insert(Category category);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param category 实例对象
+     * @return 对象列表
+     */
+    List<Category> queryAll(Category category);
 
     /**
      * 修改数据

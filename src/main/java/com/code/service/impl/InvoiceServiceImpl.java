@@ -12,7 +12,7 @@ import java.util.List;
  * (Invoice)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 23:17:18
+ * @since 2020-04-19 02:16:42
  */
 @Service("invoiceService")
 public class InvoiceServiceImpl implements InvoiceService {
@@ -40,6 +40,17 @@ public class InvoiceServiceImpl implements InvoiceService {
     @Override
     public List<Invoice> selectAll(){
         return this.invoiceDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param invoice 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Invoice> queryAll(Invoice invoice){
+          return  this.invoiceDao.queryAll(invoice);
     }
 
     /**

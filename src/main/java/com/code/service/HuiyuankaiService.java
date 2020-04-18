@@ -7,7 +7,7 @@ import java.util.List;
  * 会员卡信息表(Huiyuankai)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public interface HuiyuankaiService {
 
@@ -35,6 +35,14 @@ public interface HuiyuankaiService {
      * @return 实例对象
      */
     Huiyuankai insert(Huiyuankai huiyuankai);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param huiyuankai 实例对象
+     * @return 对象列表
+     */
+    List<Huiyuankai> queryAll(Huiyuankai huiyuankai);
 
     /**
      * 修改数据

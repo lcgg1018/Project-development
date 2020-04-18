@@ -7,7 +7,7 @@ import java.util.List;
  * (Warehouse)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 public interface WarehouseService {
 
@@ -35,6 +35,14 @@ public interface WarehouseService {
      * @return 实例对象
      */
     Warehouse insert(Warehouse warehouse);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param warehouse 实例对象
+     * @return 对象列表
+     */
+    List<Warehouse> queryAll(Warehouse warehouse);
 
     /**
      * 修改数据

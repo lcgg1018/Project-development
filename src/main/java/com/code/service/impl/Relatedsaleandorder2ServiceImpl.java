@@ -12,7 +12,7 @@ import java.util.List;
  * (Relatedsaleandorder2)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 23:26:31
+ * @since 2020-04-19 02:16:41
  */
 @Service("relatedsaleandorder2Service")
 public class Relatedsaleandorder2ServiceImpl implements Relatedsaleandorder2Service {
@@ -40,6 +40,17 @@ public class Relatedsaleandorder2ServiceImpl implements Relatedsaleandorder2Serv
     @Override
     public List<Relatedsaleandorder2> selectAll(){
         return this.relatedsaleandorder2Dao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param relatedsaleandorder2 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Relatedsaleandorder2> queryAll(Relatedsaleandorder2 relatedsaleandorder2){
+          return  this.relatedsaleandorder2Dao.queryAll(relatedsaleandorder2);
     }
 
     /**

@@ -7,7 +7,7 @@ import java.util.List;
  * (User)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 public interface UserService {
 
@@ -35,6 +35,14 @@ public interface UserService {
      * @return 实例对象
      */
     User insert(User user);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param user 实例对象
+     * @return 对象列表
+     */
+    List<User> queryAll(User user);
 
     /**
      * 修改数据

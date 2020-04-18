@@ -3,6 +3,7 @@
 <mapper namespace="com.code.dao.Relatedsaleandorder2Dao">
 
     <resultMap type="com.code.entity.Relatedsaleandorder2" id="Relatedsaleandorder2Map">
+        <result property="rid" column="rid" jdbcType="INTEGER"/>
         <result property="ordernumber" column="OrderNumber" jdbcType="VARCHAR"/>
         <result property="rname" column="rname" jdbcType="VARCHAR"/>
         <result property="sunit" column="sunit" jdbcType="VARCHAR"/>
@@ -18,24 +19,27 @@
     <!--查询单个-->
     <select id="queryById" resultMap="Relatedsaleandorder2Map">
         select
-          OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          rid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
         from clothesppsdb.relatedsaleandorder2
-        where  = #{}
+        where rid = #{rid}
     </select>
 
     <!--查询所有的数据-->
     <select id="selectAll" resultMap="Relatedsaleandorder2Map">
         select
-          OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          rid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
         from clothesppsdb.relatedsaleandorder2
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="Relatedsaleandorder2Map">
         select
-          OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          rid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
         from clothesppsdb.relatedsaleandorder2
         <where>
+            <if test="rid != null">
+                and rid = #{rid}
+            </if>
             <if test="ordernumber != null and ordernumber != ''">
                 and OrderNumber = #{ordernumber}
             </if>
@@ -70,7 +74,7 @@
     </select>
 
     <!--新增所有列-->
-    <insert id="insert" keyProperty="" useGeneratedKeys="true">
+    <insert id="insert" keyProperty="rid" useGeneratedKeys="true">
         insert into clothesppsdb.relatedsaleandorder2(OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks)
         values (#{ordernumber}, #{rname}, #{sunit}, #{sprice}, #{scount}, #{stax}, #{wid}, #{sdiscount}, #{stotal}, #{remarks})
     </insert>
@@ -110,12 +114,12 @@
                 Remarks = #{remarks},
             </if>
         </set>
-        where  = #{}
+        where rid = #{rid}
     </update>
 
     <!--通过主键删除-->
     <delete id="deleteById">
-        delete from clothesppsdb.relatedsaleandorder2 where  = #{}
+        delete from clothesppsdb.relatedsaleandorder2 where rid = #{rid}
     </delete>
 
 </mapper>

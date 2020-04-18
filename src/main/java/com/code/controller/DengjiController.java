@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Dengji)表控制层
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 @RestController
 @RequestMapping("dengji")
@@ -32,9 +32,28 @@ public class DengjiController {
         return this.dengjiService.queryById(id);
     }
     
+    
+        /**
+     * 查询某张表所有数据，搭配PageHelper使用更佳！
+     *
+     * @param
+     * @return 对象列表
+     */
     @RequestMapping("selectAll")
     public List<Dengji> selectAll(){
            return this.dengjiService.selectAll();
+    }
+    
+    
+        /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param dengji 实例对象
+     * @return 对象列表
+     */
+    @RequestMapping("queryAll")
+    public List<Dengji>  queryAll(Dengji dengji){
+           return this.dengjiService.queryAll(dengji);
     }
 
 }

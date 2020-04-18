@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Producttype)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:39
  */
 public class Producttype implements Serializable {
-    private static final long serialVersionUID = 630581552502932822L;
+    private static final long serialVersionUID = -56810571555260576L;
     /**
     * 商品类别id
     */

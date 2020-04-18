@@ -8,7 +8,7 @@ import java.util.List;
  * (Invoice)表数据库访问层
  *
  * @author yap
- * @since 2020-04-18 23:17:18
+ * @since 2020-04-19 02:16:42
  */
 public interface InvoiceDao {
 

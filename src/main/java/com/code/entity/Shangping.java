@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Shangping)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 public class Shangping implements Serializable {
-    private static final long serialVersionUID = 956170458205859210L;
+    private static final long serialVersionUID = 472083609701513908L;
     /**
     * 商品编号，主键
     */

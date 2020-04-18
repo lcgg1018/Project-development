@@ -7,7 +7,7 @@ import java.util.List;
  * (Invoice)表服务接口
  *
  * @author yap
- * @since 2020-04-18 23:17:18
+ * @since 2020-04-19 02:16:42
  */
 public interface InvoiceService {
 
@@ -35,6 +35,14 @@ public interface InvoiceService {
      * @return 实例对象
      */
     Invoice insert(Invoice invoice);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param invoice 实例对象
+     * @return 对象列表
+     */
+    List<Invoice> queryAll(Invoice invoice);
 
     /**
      * 修改数据

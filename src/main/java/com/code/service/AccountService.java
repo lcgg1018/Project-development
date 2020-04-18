@@ -7,7 +7,7 @@ import java.util.List;
  * (Account)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:51:02
+ * @since 2020-04-19 02:16:42
  */
 public interface AccountService {
 
@@ -35,6 +35,14 @@ public interface AccountService {
      * @return 实例对象
      */
     Account insert(Account account);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param account 实例对象
+     * @return 对象列表
+     */
+    List<Account> queryAll(Account account);
 
     /**
      * 修改数据

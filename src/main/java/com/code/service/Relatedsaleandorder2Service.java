@@ -7,7 +7,7 @@ import java.util.List;
  * (Relatedsaleandorder2)表服务接口
  *
  * @author yap
- * @since 2020-04-18 23:26:31
+ * @since 2020-04-19 02:16:41
  */
 public interface Relatedsaleandorder2Service {
 
@@ -35,6 +35,14 @@ public interface Relatedsaleandorder2Service {
      * @return 实例对象
      */
     Relatedsaleandorder2 insert(Relatedsaleandorder2 relatedsaleandorder2);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param relatedsaleandorder2 实例对象
+     * @return 对象列表
+     */
+    List<Relatedsaleandorder2> queryAll(Relatedsaleandorder2 relatedsaleandorder2);
 
     /**
      * 修改数据

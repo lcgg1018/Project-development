@@ -7,7 +7,7 @@ import java.util.List;
  * (Otherinware)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:42
  */
 public interface OtherinwareService {
 
@@ -35,6 +35,14 @@ public interface OtherinwareService {
      * @return 实例对象
      */
     Otherinware insert(Otherinware otherinware);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param otherinware 实例对象
+     * @return 对象列表
+     */
+    List<Otherinware> queryAll(Otherinware otherinware);
 
     /**
      * 修改数据

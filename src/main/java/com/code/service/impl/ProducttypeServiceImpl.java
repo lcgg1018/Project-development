@@ -12,7 +12,7 @@ import java.util.List;
  * (Producttype)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:39
  */
 @Service("producttypeService")
 public class ProducttypeServiceImpl implements ProducttypeService {
@@ -40,6 +40,17 @@ public class ProducttypeServiceImpl implements ProducttypeService {
     @Override
     public List<Producttype> selectAll(){
         return this.producttypeDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param producttype 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Producttype> queryAll(Producttype producttype){
+          return  this.producttypeDao.queryAll(producttype);
     }
 
     /**

@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Invoice)实体类
  *
  * @author yap
- * @since 2020-04-18 23:17:18
+ * @since 2020-04-19 02:16:42
  */
 public class Invoice implements Serializable {
-    private static final long serialVersionUID = 612524564792980494L;
+    private static final long serialVersionUID = -60808075858563420L;
     
     private Integer id;
     

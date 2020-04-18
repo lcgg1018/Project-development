@@ -7,7 +7,7 @@ import java.util.List;
  * (Kehu)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public interface KehuService {
 
@@ -35,6 +35,14 @@ public interface KehuService {
      * @return 实例对象
      */
     Kehu insert(Kehu kehu);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param kehu 实例对象
+     * @return 对象列表
+     */
+    List<Kehu> queryAll(Kehu kehu);
 
     /**
      * 修改数据

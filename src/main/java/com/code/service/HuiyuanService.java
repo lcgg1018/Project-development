@@ -7,7 +7,7 @@ import java.util.List;
  * (Huiyuan)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public interface HuiyuanService {
 
@@ -35,6 +35,14 @@ public interface HuiyuanService {
      * @return 实例对象
      */
     Huiyuan insert(Huiyuan huiyuan);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param huiyuan 实例对象
+     * @return 对象列表
+     */
+    List<Huiyuan> queryAll(Huiyuan huiyuan);
 
     /**
      * 修改数据

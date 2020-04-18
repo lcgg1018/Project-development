@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Saleandorder2)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public class Saleandorder2 implements Serializable {
-    private static final long serialVersionUID = -76253670580313427L;
+    private static final long serialVersionUID = 370986733736676873L;
     
     private Integer sid;
     /**

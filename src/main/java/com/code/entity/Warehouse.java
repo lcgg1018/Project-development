@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Warehouse)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 public class Warehouse implements Serializable {
-    private static final long serialVersionUID = -27862611778454172L;
+    private static final long serialVersionUID = -83904690039903439L;
     /**
     * 仓库id
     */

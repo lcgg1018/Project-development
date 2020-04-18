@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Relatedsaleandorder)实体类
  *
  * @author yap
- * @since 2020-04-18 23:26:00
+ * @since 2020-04-19 02:16:42
  */
 public class Relatedsaleandorder implements Serializable {
-    private static final long serialVersionUID = -49472439848381133L;
+    private static final long serialVersionUID = -57008430266647250L;
     
     private Integer sid;
     /**
