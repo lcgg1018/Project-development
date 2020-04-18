@@ -7,7 +7,7 @@ import java.util.List;
  * (Invoice)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-18 23:12:43
  */
 public interface InvoiceService {
 
