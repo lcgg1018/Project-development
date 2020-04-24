@@ -172,24 +172,6 @@
       <artifactId>spring-context-support</artifactId>
     </dependency>
     <!--spring-tx 因为mybatis-spring-boot-starter中包含，可以不再引入-->
-    <!--Spring boot test-->
-    <dependency>
-      <groupId>org.springframework.boot</groupId>
-      <artifactId>spring-boot-starter-test</artifactId>
-      <scope>test</scope>
-      <exclusions>
-        <exclusion>
-          <groupId>org.junit.vintage</groupId>
-          <artifactId>junit-vintage-engine</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-    <!--LOMBOK-->
-    <dependency>
-      <groupId>org.projectlombok</groupId>
-      <artifactId>lombok</artifactId>
-      <version>1.18.10</version>
-    </dependency>
   </dependencies>
 
 
