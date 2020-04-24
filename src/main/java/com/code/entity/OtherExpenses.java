@@ -1,13 +1,36 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 其他支出单
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class OtherExpenses {
-
+  /***
+   *支出编号
+   */
   private long expenditureNum;
+  /***
+   *供应商ID
+   */
   private String supplierId;
+  /***
+   *单据日期
+   */
   private java.sql.Timestamp invoicesDate;
+  /***
+   *支出类别
+   */
   private long spendingCategoryId;
+  /***
+   *金额
+   */
   private double money;
+  /***
+   *备注
+   */
   private String remark;
 
 

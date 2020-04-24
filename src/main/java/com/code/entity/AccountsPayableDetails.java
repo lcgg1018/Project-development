@@ -1,14 +1,41 @@
 package com.code.entity;
 
 
-public class AccountsPayableDetails {
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+@NoArgsConstructor@AllArgsConstructor
+/***
+ * 应付账款明细
+ */
+public class AccountsPayableDetails {
+  /***
+   * 供应商ID
+   */
   private long expenditureNum;
+  /****
+   * 单据日期
+   */
   private java.sql.Timestamp invoicesDate;
+  /***
+   * 单据编号
+   */
   private String invoicesNum;
+  /***
+   * 增加应付款
+   */
   private double increaseDue;
+  /***
+   * 增加预付款
+   */
   private double advancePaymentIncrease;
+  /***
+   * 应付款余额
+   */
   private double balancePayable;
+  /***
+   * 余额
+   */
   private String remark;
 
 

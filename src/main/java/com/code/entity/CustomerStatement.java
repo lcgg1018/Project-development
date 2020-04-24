@@ -1,19 +1,61 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 客户对账单
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class CustomerStatement {
 
+  /***
+   *客户ID
+   */
   private long clienteleId;
+  /***
+   *单据编号
+   */
   private String invoicesNum;
+  /***
+   *单据日期
+   */
   private java.sql.Timestamp invoicesDate;
+  /***
+   *业务类别
+   */
   private String businessCategory;
+  /***
+   *源销货订单号
+   */
   private String sourceListNum;
+  /***
+   *销售金额
+   */
   private double salesAmount;
+  /***
+   *优惠金额
+   */
   private double discountAmount;
+  /***
+   *客户承担费用
+   */
   private double payThePiper;
+  /***
+   *应收金额
+   */
   private double amountReceivable;
+  /***
+   *实际收款金额
+   */
   private double actualAmountReceived;
+  /***
+   *应收款金额
+   */
   private double receivableBalance;
+  /***
+   *备注
+   */
   private String remark;
 
 

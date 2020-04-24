@@ -1,15 +1,44 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 收款单
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class Receipt {
-
+  /***
+   *结算账户
+   */
   private long settlementAccountId;
+  /***
+   *销货单位ID
+   */
   private long unitSalesId;
-  private long __Payee;
+  /***
+   *收款人
+   */
+  private long payee;
+  /***
+   *收款金额
+   */
   private double receivableAmount;
+  /***
+   *结算方式
+   */
   private long clearingForm;
+  /***
+   *结算号
+   */
   private long settleNum;
+  /***
+   *单据日期
+   */
   private java.sql.Timestamp invoicesDate;
+  /***
+   *备注
+   */
   private String remark;
 
 
@@ -30,15 +59,13 @@ public class Receipt {
     this.unitSalesId = unitSalesId;
   }
 
-
-  public long get__Payee() {
-    return __Payee;
+  public long getPayee() {
+    return payee;
   }
 
-  public void set__Payee(long __Payee) {
-    this.__Payee = __Payee;
+  public void setPayee(long payee) {
+    this.payee = payee;
   }
-
 
   public double getReceivableAmount() {
     return receivableAmount;

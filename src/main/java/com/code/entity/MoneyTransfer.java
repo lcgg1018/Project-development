@@ -1,13 +1,36 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 资金转账单
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class MoneyTransfer {
-
+  /***
+   * 转出账户
+   */
   private long outAccountId;
+  /***
+   *转入账户
+   */
   private long shiftToAccountId;
+  /***
+   *金额
+   */
   private double money;
+  /***
+   *结算方式
+   */
   private long clearingFormId;
+  /***
+   *结算号
+   */
   private long settleNum;
+  /***
+   *备注
+   */
   private String remark;
 
 

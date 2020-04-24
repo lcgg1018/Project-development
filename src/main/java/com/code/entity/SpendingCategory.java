@@ -1,9 +1,20 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 支出类别
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class SpendingCategory {
-
+  /***
+   * 支出类别ID
+   */
   private long spendingcategoryId;
+  /***
+   * 类别名称
+   */
   private String spending_CategoryName;
 
 

@@ -1,17 +1,52 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 现金银行报表
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class CashStatement {
-
+  /***
+   *账户编号
+   */
   private long accountId;
+  /***
+   *日期
+   */
   private java.sql.Timestamp date;
+  /***
+   * 单据编号
+   */
   private String invoicesNum;
+  /***
+   * 业务类型
+   */
   private String businessType;
+  /***
+   * 收入
+   */
   private double income;
+  /***
+   * 支出
+   */
   private double disburse;
+  /***
+   *账户余额
+   */
   private double accountBalance;
+  /***
+   *客户编号/供应商编号
+   */
   private String dealings;
+  /***
+   *收款人
+   */
   private String payee;
+  /***
+   *备注
+   */
   private String remark;
 
 

@@ -1,9 +1,20 @@
 package com.code.entity;
 
+import lombok.AllArgsConstructor;
+import lombok.NoArgsConstructor;
 
+/***
+ * 结算方式
+ */
+@NoArgsConstructor@AllArgsConstructor
 public class PaymentMethod {
-
+  /***
+   *结算ID
+   */
   private long clearingFormId;
+  /***
+   * 结算方式
+   */
   private String clearingForm;
 
 
