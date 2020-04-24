@@ -7,7 +7,7 @@ import java.util.List;
  * (Action)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:42
  */
 public interface ActionService {
 
@@ -35,6 +35,14 @@ public interface ActionService {
      * @return 实例对象
      */
     Action insert(Action action);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param action 实例对象
+     * @return 对象列表
+     */
+    List<Action> queryAll(Action action);
 
     /**
      * 修改数据

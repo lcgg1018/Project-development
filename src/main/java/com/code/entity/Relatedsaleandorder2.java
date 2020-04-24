@@ -6,10 +6,12 @@ import java.io.Serializable;
  * (Relatedsaleandorder2)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:41
  */
 public class Relatedsaleandorder2 implements Serializable {
-    private static final long serialVersionUID = -99033359981693346L;
+    private static final long serialVersionUID = 808977704659419501L;
+    
+    private Integer rid;
     /**
     * 编号
     */
@@ -47,6 +49,14 @@ public class Relatedsaleandorder2 implements Serializable {
     */
     private String remarks;
 
+
+    public Integer getRid() {
+        return rid;
+    }
+
+    public void setRid(Integer rid) {
+        this.rid = rid;
+    }
 
     public String getOrdernumber() {
         return ordernumber;

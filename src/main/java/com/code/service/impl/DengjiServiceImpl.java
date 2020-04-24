@@ -12,7 +12,7 @@ import java.util.List;
  * (Dengji)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 @Service("dengjiService")
 public class DengjiServiceImpl implements DengjiService {
@@ -40,6 +40,17 @@ public class DengjiServiceImpl implements DengjiService {
     @Override
     public List<Dengji> selectAll(){
         return this.dengjiDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param dengji 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Dengji> queryAll(Dengji dengji){
+          return  this.dengjiDao.queryAll(dengji);
     }
 
     /**

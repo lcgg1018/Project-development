@@ -3,6 +3,7 @@
 <mapper namespace="com.code.dao.InvoiceDao">
 
     <resultMap type="com.code.entity.Invoice" id="InvoiceMap">
+        <result property="id" column="id" jdbcType="INTEGER"/>
         <result property="idate" column="idate" jdbcType="TIMESTAMP"/>
         <result property="ordernumber" column="OrderNumber" jdbcType="VARCHAR"/>
         <result property="customername" column="customername" jdbcType="VARCHAR"/>
@@ -15,24 +16,27 @@
     <!--查询单个-->
     <select id="queryById" resultMap="InvoiceMap">
         select
-          idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
+          id, idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
         from clothesppsdb.invoice
-        where  = #{}
+        where id = #{id}
     </select>
 
     <!--查询所有的数据-->
     <select id="selectAll" resultMap="InvoiceMap">
         select
-          idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
+          id, idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
         from clothesppsdb.invoice
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="InvoiceMap">
         select
-          idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
+          id, idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount
         from clothesppsdb.invoice
         <where>
+            <if test="id != null">
+                and id = #{id}
+            </if>
             <if test="idate != null">
                 and idate = #{idate}
             </if>
@@ -58,7 +62,7 @@
     </select>
 
     <!--新增所有列-->
-    <insert id="insert" keyProperty="" useGeneratedKeys="true">
+    <insert id="insert" keyProperty="id" useGeneratedKeys="true">
         insert into clothesppsdb.invoice(idate, OrderNumber, customername, iprice, InvoicedAmount, AmountNotInvoiced, CurrentInvoiceAmount)
         values (#{idate}, #{ordernumber}, #{customername}, #{iprice}, #{invoicedamount}, #{amountnotinvoiced}, #{currentinvoiceamount})
     </insert>
@@ -89,12 +93,12 @@
                 CurrentInvoiceAmount = #{currentinvoiceamount},
             </if>
         </set>
-        where  = #{}
+        where id = #{id}
     </update>
 
     <!--通过主键删除-->
     <delete id="deleteById">
-        delete from clothesppsdb.invoice where  = #{}
+        delete from clothesppsdb.invoice where id = #{id}
     </delete>
 
 </mapper>

@@ -7,7 +7,7 @@ import java.util.List;
  * (Product)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:39
  */
 public interface ProductService {
 
@@ -35,6 +35,14 @@ public interface ProductService {
      * @return 实例对象
      */
     Product insert(Product product);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param product 实例对象
+     * @return 对象列表
+     */
+    List<Product> queryAll(Product product);
 
     /**
      * 修改数据

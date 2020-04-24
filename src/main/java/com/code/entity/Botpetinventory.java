@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Botpetinventory)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:40
  */
 public class Botpetinventory implements Serializable {
-    private static final long serialVersionUID = -99977351149480344L;
+    private static final long serialVersionUID = 938658156181407106L;
     /**
     * 盘点记录id
     */

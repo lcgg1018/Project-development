@@ -7,10 +7,10 @@ import java.io.Serializable;
  * 会员卡注销表(Zhuxiao)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public class Zhuxiao implements Serializable {
-    private static final long serialVersionUID = 932959618166311708L;
+    private static final long serialVersionUID = -42805668269991269L;
     /**
     * 会员卡卡号，主键
     */

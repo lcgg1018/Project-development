@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Suppliertype)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 public class Suppliertype implements Serializable {
-    private static final long serialVersionUID = 122022888306883523L;
+    private static final long serialVersionUID = 823919174145683620L;
     
     private Integer stypeid;
     

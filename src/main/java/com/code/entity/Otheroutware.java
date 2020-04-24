@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Otheroutware)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:40
  */
 public class Otheroutware implements Serializable {
-    private static final long serialVersionUID = 931371907447387688L;
+    private static final long serialVersionUID = 261781185454532909L;
     /**
     * 其他出库订单编号
     */

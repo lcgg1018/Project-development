@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Warehouse)表控制层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 @RestController
 @RequestMapping("warehouse")
@@ -32,9 +32,28 @@ public class WarehouseController {
         return this.warehouseService.queryById(id);
     }
     
+    
+        /**
+     * 查询某张表所有数据，搭配PageHelper使用更佳！
+     *
+     * @param
+     * @return 对象列表
+     */
     @RequestMapping("selectAll")
     public List<Warehouse> selectAll(){
            return this.warehouseService.selectAll();
+    }
+    
+    
+        /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param warehouse 实例对象
+     * @return 对象列表
+     */
+    @RequestMapping("queryAll")
+    public List<Warehouse>  queryAll(Warehouse warehouse){
+           return this.warehouseService.queryAll(warehouse);
     }
 
 }

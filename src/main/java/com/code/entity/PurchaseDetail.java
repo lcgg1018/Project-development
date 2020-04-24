@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (PurchaseDetail)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:40
  */
 public class PurchaseDetail implements Serializable {
-    private static final long serialVersionUID = -76682083519387509L;
+    private static final long serialVersionUID = 736613569084148326L;
     /**
     * 单据编号
     */

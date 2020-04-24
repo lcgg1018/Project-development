@@ -7,7 +7,7 @@ import java.util.List;
  * (Address)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public interface AddressService {
 
@@ -35,6 +35,14 @@ public interface AddressService {
      * @return 实例对象
      */
     Address insert(Address address);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param address 实例对象
+     * @return 对象列表
+     */
+    List<Address> queryAll(Address address);
 
     /**
      * 修改数据

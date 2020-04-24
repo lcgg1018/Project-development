@@ -2,6 +2,13 @@
   "name" : "Invoice",
   "comment" : null,
   "fullColumn" : [ {
+    "name" : "id",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
     "name" : "idate",
     "comment" : null,
     "type" : null,

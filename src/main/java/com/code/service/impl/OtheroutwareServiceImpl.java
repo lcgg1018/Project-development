@@ -12,7 +12,7 @@ import java.util.List;
  * (Otheroutware)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:55
+ * @since 2020-04-19 02:16:40
  */
 @Service("otheroutwareService")
 public class OtheroutwareServiceImpl implements OtheroutwareService {
@@ -40,6 +40,17 @@ public class OtheroutwareServiceImpl implements OtheroutwareService {
     @Override
     public List<Otheroutware> selectAll(){
         return this.otheroutwareDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param otheroutware 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Otheroutware> queryAll(Otheroutware otheroutware){
+          return  this.otheroutwareDao.queryAll(otheroutware);
     }
 
     /**

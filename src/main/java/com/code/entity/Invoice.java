@@ -7,10 +7,12 @@ import java.io.Serializable;
  * (Invoice)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:42
  */
 public class Invoice implements Serializable {
-    private static final long serialVersionUID = 878748520556158305L;
+    private static final long serialVersionUID = -60808075858563420L;
+    
+    private Integer id;
     
     private Date idate;
     /**
@@ -38,6 +40,14 @@ public class Invoice implements Serializable {
     */
     private String currentinvoiceamount;
 
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
 
     public Date getIdate() {
         return idate;

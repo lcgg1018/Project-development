@@ -7,10 +7,10 @@ import java.io.Serializable;
  * 会员卡信息表(Huiyuankai)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public class Huiyuankai implements Serializable {
-    private static final long serialVersionUID = 372238878544963398L;
+    private static final long serialVersionUID = -23026033707480532L;
     /**
     * 会员卡卡号，主键
     */

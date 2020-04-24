@@ -12,7 +12,7 @@ import java.util.List;
  * (Supplier)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 @Service("supplierService")
 public class SupplierServiceImpl implements SupplierService {
@@ -40,6 +40,17 @@ public class SupplierServiceImpl implements SupplierService {
     @Override
     public List<Supplier> selectAll(){
         return this.supplierDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param supplier 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<Supplier> queryAll(Supplier supplier){
+          return  this.supplierDao.queryAll(supplier);
     }
 
     /**

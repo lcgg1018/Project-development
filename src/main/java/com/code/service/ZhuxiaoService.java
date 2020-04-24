@@ -7,7 +7,7 @@ import java.util.List;
  * 会员卡注销表(Zhuxiao)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public interface ZhuxiaoService {
 
@@ -35,6 +35,14 @@ public interface ZhuxiaoService {
      * @return 实例对象
      */
     Zhuxiao insert(Zhuxiao zhuxiao);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param zhuxiao 实例对象
+     * @return 对象列表
+     */
+    List<Zhuxiao> queryAll(Zhuxiao zhuxiao);
 
     /**
      * 修改数据

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * 会员消费记录表(Xiaofei)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:41
  */
 public class Xiaofei implements Serializable {
-    private static final long serialVersionUID = -41645717046057383L;
+    private static final long serialVersionUID = -34720252660632525L;
     /**
     * 会员卡卡号，主键
     */

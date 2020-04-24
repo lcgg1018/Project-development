@@ -8,7 +8,7 @@ import java.util.List;
  * 会员消费记录表(Xiaofei)表数据库访问层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:41
  */
 public interface XiaofeiDao {
 

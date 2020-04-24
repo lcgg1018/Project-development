@@ -7,7 +7,7 @@ import java.util.List;
  * (Supplier)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 public interface SupplierService {
 
@@ -35,6 +35,14 @@ public interface SupplierService {
      * @return 实例对象
      */
     Supplier insert(Supplier supplier);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param supplier 实例对象
+     * @return 对象列表
+     */
+    List<Supplier> queryAll(Supplier supplier);
 
     /**
      * 修改数据

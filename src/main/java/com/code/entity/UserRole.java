@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (UserRole)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public class UserRole implements Serializable {
-    private static final long serialVersionUID = 341793460168651173L;
+    private static final long serialVersionUID = 949454290323571683L;
     /**
     * id
     */

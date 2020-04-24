@@ -10,7 +10,7 @@ import javax.annotation.Resource;
  * (Shangping)表控制层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 @RestController
 @RequestMapping("shangping")
@@ -32,9 +32,28 @@ public class ShangpingController {
         return this.shangpingService.queryById(id);
     }
     
+    
+        /**
+     * 查询某张表所有数据，搭配PageHelper使用更佳！
+     *
+     * @param
+     * @return 对象列表
+     */
     @RequestMapping("selectAll")
     public List<Shangping> selectAll(){
            return this.shangpingService.selectAll();
+    }
+    
+    
+        /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param shangping 实例对象
+     * @return 对象列表
+     */
+    @RequestMapping("queryAll")
+    public List<Shangping>  queryAll(Shangping shangping){
+           return this.shangpingService.queryAll(shangping);
     }
 
 }

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Huiyuan)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:54
+ * @since 2020-04-19 02:16:39
  */
 public class Huiyuan implements Serializable {
-    private static final long serialVersionUID = 654852984707385319L;
+    private static final long serialVersionUID = -49255712788664475L;
     /**
     * 会员编号，主键
     */

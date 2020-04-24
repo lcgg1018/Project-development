@@ -2,6 +2,13 @@
   "name" : "Relatedsaleandorder",
   "comment" : null,
   "fullColumn" : [ {
+    "name" : "sid",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
     "name" : "ordernumber",
     "comment" : null,
     "type" : null,

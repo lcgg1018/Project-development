@@ -12,7 +12,7 @@ import java.util.List;
  * (PurchaseReturn)表服务实现类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 @Service("purchaseReturnService")
 public class PurchaseReturnServiceImpl implements PurchaseReturnService {
@@ -40,6 +40,17 @@ public class PurchaseReturnServiceImpl implements PurchaseReturnService {
     @Override
     public List<PurchaseReturn> selectAll(){
         return this.purchaseReturnDao.selectAll();
+    }
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param purchaseReturn 实例对象
+     * @return 对象列表
+     */
+    @Override
+   public List<PurchaseReturn> queryAll(PurchaseReturn purchaseReturn){
+          return  this.purchaseReturnDao.queryAll(purchaseReturn);
     }
 
     /**

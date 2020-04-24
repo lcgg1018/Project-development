@@ -8,17 +8,17 @@ import java.util.List;
  * (Relatedsaleandorder)表数据库访问层
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:42
  */
 public interface RelatedsaleandorderDao {
 
     /**
      * 通过ID查询单条数据
      *
-     * @param  主键
+     * @param sid 主键
      * @return 实例对象
      */
-    Relatedsaleandorder queryById( );
+    Relatedsaleandorder queryById(Integer sid);
 
     /**
      * 查询指定行数据
@@ -57,9 +57,9 @@ public interface RelatedsaleandorderDao {
     /**
      * 通过主键删除数据
      *
-     * @param  主键
+     * @param sid 主键
      * @return 影响行数
      */
-    int deleteById( );
+    int deleteById(Integer sid);
 
 }

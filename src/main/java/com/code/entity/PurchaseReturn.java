@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (PurchaseReturn)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public class PurchaseReturn implements Serializable {
-    private static final long serialVersionUID = 623326032215518972L;
+    private static final long serialVersionUID = -27106110335958357L;
     /**
     * 退货单据编号
     */

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Transfersorder)实体类
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 public class Transfersorder implements Serializable {
-    private static final long serialVersionUID = -17611988903915361L;
+    private static final long serialVersionUID = 602359088132828565L;
     /**
     * 调拨单ID
     */

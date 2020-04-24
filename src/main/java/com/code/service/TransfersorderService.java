@@ -7,7 +7,7 @@ import java.util.List;
  * (Transfersorder)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:40
  */
 public interface TransfersorderService {
 
@@ -35,6 +35,14 @@ public interface TransfersorderService {
      * @return 实例对象
      */
     Transfersorder insert(Transfersorder transfersorder);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param transfersorder 实例对象
+     * @return 对象列表
+     */
+    List<Transfersorder> queryAll(Transfersorder transfersorder);
 
     /**
      * 修改数据

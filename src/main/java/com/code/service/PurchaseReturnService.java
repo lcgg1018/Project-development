@@ -7,7 +7,7 @@ import java.util.List;
  * (PurchaseReturn)表服务接口
  *
  * @author yap
- * @since 2020-04-18 16:52:56
+ * @since 2020-04-19 02:16:39
  */
 public interface PurchaseReturnService {
 
@@ -35,6 +35,14 @@ public interface PurchaseReturnService {
      * @return 实例对象
      */
     PurchaseReturn insert(PurchaseReturn purchaseReturn);
+
+    /**
+     * 通过实体作为筛选条件查询
+     *
+     * @param purchaseReturn 实例对象
+     * @return 对象列表
+     */
+    List<PurchaseReturn> queryAll(PurchaseReturn purchaseReturn);
 
     /**
      * 修改数据
