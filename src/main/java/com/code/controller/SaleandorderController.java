@@ -2,16 +2,22 @@ package com.code.controller;
 
 import com.code.entity.Saleandorder;
 import com.code.service.SaleandorderService;
+import com.github.pagehelper.PageInfo;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 import javax.annotation.Resource;
+import javax.print.DocFlavor;
 
 /**
  * (Saleandorder)表控制层
  *
  * @author yap
- * @since 2020-04-19 02:16:40
+ * @since 2020-04-21 11:34:06
  */
+@CrossOrigin
 @RestController
 @RequestMapping("saleandorder")
 public class SaleandorderController {
@@ -31,8 +37,8 @@ public class SaleandorderController {
     public Saleandorder selectOne(Integer id) {
         return this.saleandorderService.queryById(id);
     }
-    
-    
+
+
         /**
      * 查询某张表所有数据，搭配PageHelper使用更佳！
      *
@@ -40,11 +46,18 @@ public class SaleandorderController {
      * @return 对象列表
      */
     @RequestMapping("selectAll")
-    public List<Saleandorder> selectAll(){
-           return this.saleandorderService.selectAll();
+    public Map<String,Object> selectAll(@RequestParam("page") int pageNum, @RequestParam("limit") int pageSize){
+        List<Saleandorder> list =this.saleandorderService.selectAll();
+        PageInfo<Saleandorder> pageInfo = this.saleandorderService.selectAllForPage(pageNum,pageSize);
+        System.out.println(pageInfo);
+        Map<String,Object> map = new HashMap<>();
+        map.put("data",list);
+        map.put("code",0);
+        map.put("count",pageInfo.getTotal());
+        return map;
     }
-    
-    
+
+
         /**
      * 通过实体作为筛选条件查询
      *

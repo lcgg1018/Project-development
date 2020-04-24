@@ -22,7 +22,7 @@ public interface RelatedsaleandorderService {
     /**
      * 查询多条数据
      *
-     * @param 
+     * @param
      * @param
      * @return 对象列表
      */

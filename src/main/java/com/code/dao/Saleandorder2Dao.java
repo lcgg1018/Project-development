@@ -8,7 +8,7 @@ import java.util.List;
  * (Saleandorder2)表数据库访问层
  *
  * @author yap
- * @since 2020-04-19 02:16:39
+ * @since 2020-04-21 11:34:06
  */
 public interface Saleandorder2Dao {
 

@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Saleandorder2)实体类
  *
  * @author yap
- * @since 2020-04-19 02:16:39
+ * @since 2020-04-21 11:34:06
  */
 public class Saleandorder2 implements Serializable {
-    private static final long serialVersionUID = 370986733736676873L;
+    private static final long serialVersionUID = -52896660180846011L;
     
     private Integer sid;
     /**
@@ -37,6 +37,10 @@ public class Saleandorder2 implements Serializable {
     * 备注
     */
     private String remarks;
+    /**
+    * 总价
+    */
+    private String stotal;
     /**
     * 制单人
     */
@@ -101,6 +105,14 @@ public class Saleandorder2 implements Serializable {
 
     public void setRemarks(String remarks) {
         this.remarks = remarks;
+    }
+
+    public String getStotal() {
+        return stotal;
+    }
+
+    public void setStotal(String stotal) {
+        this.stotal = stotal;
     }
 
     public String getAuthor() {

@@ -1,13 +1,15 @@
 package com.code.service;
 
 import com.code.entity.Saleandorder;
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**
  * (Saleandorder)表服务接口
  *
  * @author yap
- * @since 2020-04-19 02:16:40
+ * @since 2020-04-21 11:34:06
  */
 public interface SaleandorderService {
 
@@ -22,12 +24,13 @@ public interface SaleandorderService {
     /**
      * 查询多条数据
      *
-     * @param 
+     * @param
      * @param
      * @return 对象列表
      */
     List<Saleandorder>selectAll();
 
+    PageInfo<Saleandorder> selectAllForPage(int pageNum, int pageSize);
     /**
      * 新增数据
      *

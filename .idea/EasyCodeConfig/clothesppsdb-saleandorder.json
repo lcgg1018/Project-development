@@ -72,6 +72,13 @@
     "custom" : false,
     "ext" : { }
   }, {
+    "name" : "stotal",
+    "comment" : null,
+    "type" : null,
+    "shortType" : null,
+    "custom" : false,
+    "ext" : { }
+  }, {
     "name" : "author",
     "comment" : null,
     "type" : null,

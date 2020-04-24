@@ -10,13 +10,13 @@ import java.io.Serializable;
  */
 public class Relatedsaleandorder implements Serializable {
     private static final long serialVersionUID = -57008430266647250L;
-    
+
     private Integer sid;
     /**
     * 编号
     */
     private String ordernumber;
-    
+
     private String rname;
     /**
     * 单位
@@ -38,7 +38,7 @@ public class Relatedsaleandorder implements Serializable {
     * 仓库
     */
     private Integer wid;
-    
+
     private String sdiscount;
     /**
     * 总价
@@ -138,4 +138,20 @@ public class Relatedsaleandorder implements Serializable {
         this.remarks = remarks;
     }
 
+    @Override
+    public String toString() {
+        return "Relatedsaleandorder{" +
+                "sid=" + sid +
+                ", ordernumber='" + ordernumber + '\'' +
+                ", rname='" + rname + '\'' +
+                ", sunit='" + sunit + '\'' +
+                ", sprice='" + sprice + '\'' +
+                ", scount='" + scount + '\'' +
+                ", stax='" + stax + '\'' +
+                ", wid=" + wid +
+                ", sdiscount='" + sdiscount + '\'' +
+                ", stotal='" + stotal + '\'' +
+                ", remarks='" + remarks + '\'' +
+                '}';
+    }
 }
