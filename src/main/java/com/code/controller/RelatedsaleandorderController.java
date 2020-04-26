@@ -13,7 +13,7 @@ import javax.annotation.Resource;
  * (Relatedsaleandorder)表控制层
  *
  * @author yap
- * @since 2020-04-19 02:16:42
+ * @since 2020-04-26 16:29:19
  */
 @RestController
 @RequestMapping("relatedsaleandorder")
@@ -54,15 +54,14 @@ public class RelatedsaleandorderController {
      * @param relatedsaleandorder 实例对象
      * @return 对象列表
      */
-    @RequestMapping("queryAll")
-    public Map<String,Object> queryAll(Relatedsaleandorder relatedsaleandorder){
-        System.out.println(relatedsaleandorder);
-        Map<String,Object> map = new HashMap<>();
-        List<Relatedsaleandorder> list = this.relatedsaleandorderService.queryAll(relatedsaleandorder);
-        map.put("data",list);
-        map.put("code",0);
-        map.put("total",list.size());
-        return map;
-    }
-
+        @RequestMapping("queryAll")
+        public Map<String,Object> queryAll(Relatedsaleandorder relatedsaleandorder){
+            System.out.println(relatedsaleandorder);
+            Map<String,Object> map = new HashMap<>();
+            List<Relatedsaleandorder> list = this.relatedsaleandorderService.queryAll(relatedsaleandorder);
+            map.put("data",list);
+            map.put("code",0);
+            map.put("total",list.size());
+            return map;
+        }
 }

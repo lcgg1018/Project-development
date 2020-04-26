@@ -9,7 +9,7 @@ import java.util.List;
  * (Saleandorder)表服务接口
  *
  * @author yap
- * @since 2020-04-21 11:34:06
+ * @since 2020-04-26 16:29:19
  */
 public interface SaleandorderService {
 
@@ -30,7 +30,6 @@ public interface SaleandorderService {
      */
     List<Saleandorder>selectAll();
 
-    PageInfo<Saleandorder> selectAllForPage(int pageNum, int pageSize);
     /**
      * 新增数据
      *
@@ -47,6 +46,8 @@ public interface SaleandorderService {
      */
     List<Saleandorder> queryAll(Saleandorder saleandorder);
 
+
+    PageInfo<Saleandorder> selectAllForPage(int pageNum, int pageSize);
     /**
      * 修改数据
      *

@@ -9,15 +9,13 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import javax.annotation.Resource;
-import javax.print.DocFlavor;
 
 /**
  * (Saleandorder)表控制层
  *
  * @author yap
- * @since 2020-04-21 11:34:06
+ * @since 2020-04-26 16:29:19
  */
-@CrossOrigin
 @RestController
 @RequestMapping("saleandorder")
 public class SaleandorderController {
@@ -45,17 +43,16 @@ public class SaleandorderController {
      * @param
      * @return 对象列表
      */
-    @RequestMapping("selectAll")
-    public Map<String,Object> selectAll(@RequestParam("page") int pageNum, @RequestParam("limit") int pageSize){
-        List<Saleandorder> list =this.saleandorderService.selectAll();
-        PageInfo<Saleandorder> pageInfo = this.saleandorderService.selectAllForPage(pageNum,pageSize);
-        System.out.println(pageInfo);
-        Map<String,Object> map = new HashMap<>();
-        map.put("data",list);
-        map.put("code",0);
-        map.put("count",pageInfo.getTotal());
-        return map;
-    }
+        @RequestMapping("selectAll")
+        public Map<String,Object> selectAll(@RequestParam("page") int pageNum, @RequestParam("limit") int pageSize){
+            PageInfo<Saleandorder> pageInfo = this.saleandorderService.selectAllForPage(pageNum,pageSize);
+            System.out.println(pageInfo);
+            Map<String,Object> map = new HashMap<>();
+            map.put("data",pageInfo.getList());
+            map.put("code",0);
+            map.put("count",pageInfo.getTotal());
+            return map;
+        }
 
 
         /**
