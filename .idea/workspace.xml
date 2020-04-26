@@ -2,47 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cb36a92-77c6-4e3a-a114-21510b614716" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/clothesppsdb-relatedsaleandorder2.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/clothesppsdb-relatedsaleandorder2.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/EasyCodeConfig/clothesppsdb-saleandorder.json" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/EasyCodeConfig/clothesppsdb-saleandorder.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/Relatedsaleandorder2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/Relatedsaleandorder2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/Saleandorder2Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/Saleandorder2Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/Relatedsaleandorder2Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/Relatedsaleandorder2Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/RelatedsaleandorderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/RelatedsaleandorderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/Saleandorder2Dao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/Saleandorder2Dao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/SaleandorderDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/SaleandorderDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Relatedsaleandorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Relatedsaleandorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Relatedsaleandorder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Relatedsaleandorder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Saleandorder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Saleandorder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Saleandorder2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Saleandorder2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/Relatedsaleandorder2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/Relatedsaleandorder2Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/RelatedsaleandorderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/RelatedsaleandorderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/Saleandorder2Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/Saleandorder2Service.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/Relatedsaleandorder2ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/Relatedsaleandorder2ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/RelatedsaleandorderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/RelatedsaleandorderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/Saleandorder2ServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/Saleandorder2ServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Relatedsaleandorder2Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Relatedsaleandorder2Dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/RelatedsaleandorderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RelatedsaleandorderDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/Saleandorder2Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/Saleandorder2Dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/SaleandorderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/SaleandorderDao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/saleAndOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/saleAndOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/Saleandorder2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/Saleandorder2Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/Saleandorder2Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/Saleandorder2Dao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/Saleandorder2Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/Saleandorder2Service.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/Saleandorder2ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/Saleandorder2ServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/SaleandorderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/SaleandorderServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Saleandorder2Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/Saleandorder2Dao.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SaleandorderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SaleandorderDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -91,7 +51,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="160">
-              <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
               <folding>
                 <element signature="e#636#637#0" expanded="true" />
                 <element signature="e#697#698#0" expanded="true" />
@@ -113,7 +73,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="65">
-              <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="290">
+              <caret line="140" column="68" lean-forward="true" selection-start-line="140" selection-start-column="68" selection-end-line="140" selection-end-column="68" />
             </state>
           </provider>
         </entry>
@@ -135,11 +104,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="297" column="71" lean-forward="true" selection-start-line="297" selection-start-column="71" selection-end-line="297" selection-end-column="71" />
+            <state relative-caret-position="207">
+              <caret line="290" column="62" lean-forward="true" selection-start-line="290" selection-start-column="62" selection-end-line="290" selection-end-column="62" />
               <folding>
                 <element signature="e#8612#8616#0" expanded="true" />
               </folding>
@@ -151,7 +120,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="450">
-              <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+              <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
               <folding>
                 <element signature="e#692#693#0" expanded="true" />
                 <element signature="e#760#761#0" expanded="true" />
@@ -166,7 +135,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="182">
-              <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               <folding>
                 <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -265,7 +234,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/RelatedsaleandorderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/dao/RelatedsaleandorderDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/order-list.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java" />
@@ -273,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -378,9 +347,7 @@
               <item name="DistributionSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -488,7 +455,7 @@
       <workItem from="1587701035476" duration="12039000" />
       <workItem from="1587716035313" duration="874000" />
       <workItem from="1587859074310" duration="14311000" />
-      <workItem from="1587882717885" duration="12313000" />
+      <workItem from="1587882717885" duration="12619000" />
     </task>
     <task id="LOCAL-00001" summary="部署....">
       <created>1587200949877</created>
@@ -581,11 +548,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587865610833</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="bug 修改第七次">
+      <created>1587901118136</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1587901118136</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110603000" />
+    <option name="totallyTimeSpent" value="110909000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -965,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3406">
-          <caret line="131" column="74" selection-start-line="130" selection-start-column="45" selection-end-line="131" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://33d7c769-e24b-4b08-9395-7f9bd532b916/schema/clothesppsdb/table/saleandorder">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -989,7 +956,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="450">
-          <caret line="59" column="53" lean-forward="true" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
+          <caret line="59" column="53" selection-start-line="59" selection-start-column="53" selection-end-line="59" selection-end-column="53" />
           <folding>
             <element signature="e#692#693#0" expanded="true" />
             <element signature="e#760#761#0" expanded="true" />
@@ -1024,14 +991,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="65">
-          <caret line="37" column="7" lean-forward="true" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
+          <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
-          <caret line="38" lean-forward="true" selection-start-line="38" selection-end-line="38" />
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
           <folding>
             <element signature="e#636#637#0" expanded="true" />
             <element signature="e#697#698#0" expanded="true" />
@@ -1042,7 +1009,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="182">
-          <caret line="7" column="70" lean-forward="true" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding>
             <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -1056,11 +1023,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="297" column="71" lean-forward="true" selection-start-line="297" selection-start-column="71" selection-end-line="297" selection-end-column="71" />
+        <state relative-caret-position="207">
+          <caret line="290" column="62" lean-forward="true" selection-start-line="290" selection-start-column="62" selection-end-line="290" selection-end-column="62" />
           <folding>
             <element signature="e#8612#8616#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="140" column="68" lean-forward="true" selection-start-line="140" selection-start-column="68" selection-end-line="140" selection-end-column="68" />
         </state>
       </provider>
     </entry>
