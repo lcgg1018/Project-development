@@ -62,5 +62,12 @@ public class SupplierController {
     public List<Supplier>  queryAll(Supplier supplier){
            return this.supplierService.queryAll(supplier);
     }
-
+    
+    /*
+     * 删除
+     * */
+    @RequestMapping("delbyID")
+    public boolean delbyID(int sid) {
+    	return this.supplierService.deleteById(sid);
+    }
 }
