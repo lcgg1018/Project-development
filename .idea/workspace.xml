@@ -1,9 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb36a92-77c6-4e3a-a114-21510b614716" name="Default Changelist" comment="bug 修改第五次">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/33d7c769-e24b-4b08-9395-7f9bd532b916.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/33d7c769-e24b-4b08-9395-7f9bd532b916.xml" afterDir="false" />
+    <list default="true" id="2cb36a92-77c6-4e3a-a114-21510b614716" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layarea.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-cate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-cate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-role.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-role.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-rule.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/admin-rule.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/cate.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/cate.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/city.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/city.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/font.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/font.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/login.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/login.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme1.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme1.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme2.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme2.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme3.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme4.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme4.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme5.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/theme5.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/xadmin.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/css/xadmin.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/demo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/demo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts3.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts5.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts5.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts7.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts7.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts8.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/echarts8.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/fonts/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/fonts/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/js/jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/js/jquery.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/js/xcity.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/js/xcity.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/layui.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/layui.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/layui.mobile.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/layui.mobile.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/code.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/code.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/laydate/default/laydate.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/laydate/default/laydate.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/layer/default/layer.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/css/modules/layer/default/layer.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/font/iconfont.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/font/iconfont.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/carousel.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/carousel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/code.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/code.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/colorpicker.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/colorpicker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/element.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/element.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/flow.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/flow.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/form.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/form.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/jquery.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laydate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laydate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/layedit.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/layedit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/layer.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/layer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laypage.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laypage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laytpl.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/laytpl.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/mobile.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/mobile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/rate.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/rate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/table.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/table.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/tree.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/tree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/upload.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/upload.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/util.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/lay/modules/util.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.all.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.all.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/lib/layui/layui.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/log.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/log.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-del.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-del.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-list1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-password.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/member-password.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-list1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/order-list1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/role-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/role-add.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/unicode.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/unicode.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/user.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/user.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AccountDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AccountDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ActionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ActionDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/AddressDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/AddressDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/BotpetinventoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/BotpetinventoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/CategoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/CategoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/DengjiDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/DengjiDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/HuiyuanDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/HuiyuanDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/HuiyuankaiDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/HuiyuankaiDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/InventoryDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/InventoryDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/InvoiceDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/InvoiceDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/KehuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/KehuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OtherinwareDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OtherinwareDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/OtheroutwareDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/OtheroutwareDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProductDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ProductDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ProducttypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ProducttypeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PurchaseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/PurchaseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PurchaseDetailDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/PurchaseDetailDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PurchaseDetailReturnDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/PurchaseDetailReturnDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/PurchaseReturnDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/PurchaseReturnDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/Relatedsaleandorder2Dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/Relatedsaleandorder2Dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RelatedsaleandorderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/RelatedsaleandorderDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RoleActionDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/RoleActionDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/RoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/RoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ShangpingDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ShangpingDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SupplierDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SupplierDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/SuppliertypeDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/SuppliertypeDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/TransfersorderDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/TransfersorderDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserRoleDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/UserRoleDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/WarehouseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/WarehouseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/XiaofeiDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/XiaofeiDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/ZhuxiaoDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/ZhuxiaoDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,17 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="962">
-              <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="754">
-              <caret line="32" column="47" selection-start-line="32" selection-start-column="47" selection-end-line="32" selection-end-column="47" />
+            <state relative-caret-position="107">
+              <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -69,44 +172,34 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
+            <state relative-caret-position="525">
               <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/order-view.html">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/CancelAfterVerification.java">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/CustomerStatement.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="207">
+              <caret line="134" column="54" selection-start-line="134" selection-start-column="54" selection-end-line="134" selection-end-column="54" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1483">
+              <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1378">
+            <state relative-caret-position="1304">
               <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
             </state>
           </provider>
@@ -124,8 +217,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5096">
-              <caret line="196" column="52" selection-start-line="196" selection-start-column="52" selection-end-line="196" selection-end-column="52" />
+            <state relative-caret-position="290">
+              <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="207">
+              <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -141,9 +249,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>starter</find>
-      <find>thy</find>
-      <find>dev</find>
       <find>we</find>
       <find>wel</find>
       <find>./</find>
@@ -167,9 +272,13 @@
       <find>form</find>
       <find>checkbox</find>
       <find>tbody</find>
-      <find>添加</find>
       <find>toolbarDemo</find>
       <find>test</find>
+      <find>开始</find>
+      <find>order-list</find>
+      <find>添加</find>
+      <find>username</find>
+      <find>modules</find>
     </findStrings>
     <replaceStrings>
       <replace>/</replace>
@@ -210,7 +319,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/UserController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/xadmin.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/order-view.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/entity/Relatedsaleandorder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/RelatedsaleandorderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/RelatedsaleandorderServiceImpl.java" />
@@ -219,7 +327,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/order-list.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" />
       </list>
     </option>
   </component>
@@ -287,7 +399,6 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -311,7 +422,15 @@
               <item name="DistributionSystem" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DistributionSystem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DistributionSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DistributionSystem" type="b2602c69:ProjectViewProjectNode" />
@@ -319,20 +438,12 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="layui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DistributionSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributionSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -348,7 +459,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -369,11 +480,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\lib\layui\lay\modules" />
       <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp" />
       <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\js" />
       <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\WEB-INF\page" />
       <recent name="D:\IDEWORK\DistributionSystem" />
-      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\WEB-INF\static" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -432,7 +543,8 @@
       <workItem from="1587490231685" duration="15697000" />
       <workItem from="1587675477485" duration="20468000" />
       <workItem from="1587701035476" duration="12039000" />
-      <workItem from="1587716035313" duration="720000" />
+      <workItem from="1587716035313" duration="874000" />
+      <workItem from="1587859074310" duration="5730000" />
     </task>
     <task id="LOCAL-00001" summary="部署....">
       <created>1587200949877</created>
@@ -511,14 +623,22 @@
       <option name="project" value="LOCAL" />
       <updated>1587715725869</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="bug 修改第六次">
+      <created>1587716841212</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1587716841212</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83825000" />
+    <option name="totallyTimeSpent" value="89709000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -529,12 +649,12 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32942432" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3315565" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.3315565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32942432" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.60554373" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.26652452" />
@@ -558,11 +678,11 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Web" order="4" side_tool="true" weight="0.16471216" />
-      <window_info active="true" auto_hide="true" content_ui="combo" id="Project" order="5" type="SLIDING" visible="true" weight="0.18496802" />
+      <window_info auto_hide="true" content_ui="combo" id="Project" order="5" type="SLIDING" weight="0.18496802" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32942432" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3315565" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.3315565" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -571,10 +691,10 @@
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50053304" side_tool="true" weight="0.60554373" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.26652452" />
-      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.32942432" />
-      <window_info anchor="bottom" x="28" y="380" width="1876" height="353" id="Run" order="15" sideWeight="0.4989339" side_tool="true" type="SLIDING" weight="0.23773988" />
+      <window_info anchor="bottom" x="28" y="380" width="1876" height="353" id="Run" order="14" sideWeight="0.4989339" side_tool="true" type="SLIDING" weight="0.23773988" />
+      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32942432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49920508" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -639,28 +759,14 @@
     <MESSAGE value="bug 修改第三次" />
     <MESSAGE value="bug 修改第四次" />
     <MESSAGE value="bug 修改第五次" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 修改第五次" />
+    <MESSAGE value="bug 修改第六次" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 修改第六次" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="127" column="12" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/configs/MyMvcConfig.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="30" column="24" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1326">
@@ -827,13 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RelatedsaleandorderDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -902,13 +1001,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="962">
-          <caret line="48" column="34" selection-start-line="48" selection-start-column="34" selection-end-line="48" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="754">
@@ -916,20 +1008,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-view.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        <state relative-caret-position="3250">
+          <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
         </state>
       </provider>
     </entry>
@@ -940,17 +1022,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list1.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5096">
-          <caret line="196" column="52" selection-start-line="196" selection-start-column="52" selection-end-line="196" selection-end-column="52" />
+        <state relative-caret-position="107">
+          <caret line="41" column="11" lean-forward="true" selection-start-line="41" selection-start-column="11" selection-end-line="41" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-view.html">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="125" column="55" selection-start-line="125" selection-start-column="55" selection-end-line="125" selection-end-column="55" />
+        <state relative-caret-position="1304">
+          <caret line="53" column="38" selection-start-line="53" selection-start-column="38" selection-end-line="53" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-list1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="13" column="25" lean-forward="true" selection-start-line="13" selection-start-column="25" selection-end-line="13" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -959,8 +1048,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/CustomerStatement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        <state relative-caret-position="52">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="134" column="54" selection-start-line="134" selection-start-column="54" selection-end-line="134" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1483">
+          <caret line="82" column="39" lean-forward="true" selection-start-line="82" selection-start-column="39" selection-end-line="82" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules/layarea.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/lib/layui/layui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="41" column="66" selection-start-line="41" selection-start-column="66" selection-end-line="41" selection-end-column="66" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#3;n#form#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

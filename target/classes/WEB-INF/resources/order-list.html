@@ -1,19 +1,18 @@
 <!DOCTYPE html>
 <html class="x-admin-sm">
-
+    
     <head>
         <meta charset="UTF-8">
         <title>欢迎页面-X-admin2.2</title>
         <meta name="renderer" content="webkit">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
         <meta name="viewport" content="width=device-width,user-scalable=yes, minimum-scale=0.4, initial-scale=0.8,target-densitydpi=low-dpi" />
-        <link rel="stylesheet" href="/css/font.css">
-        <link rel="stylesheet" href="/css/xadmin.css">
-        <script src="/js/jquery.min.js"></script>
-        <script src="/lib/layui/layui.js" charset="utf-8"></script>
-        <script type="text/javascript" src="/js/xadmin.js"></script>
+        <link rel="stylesheet" href="./css/font.css">
+        <link rel="stylesheet" href="./css/xadmin.css">
+        <script src="./lib/layui/layui.js" charset="utf-8"></script>
+        <script type="text/javascript" src="./js/xadmin.js"></script>
     </head>
-
+    
     <body>
         <div class="x-nav">
             <span class="layui-breadcrumb">
@@ -26,47 +25,7 @@
                 <i class="layui-icon layui-icon-refresh" style="line-height:30px"></i>
             </a>
         </div>
-        <div class="layui-fluid" id="v1">
-            <div class="layui-row layui-col-space15">
-                <div class="layui-col-md12">
-                    <div class="layui-card">
-                        <div class="layui-card-body ">
-                            <form class="layui-form layui-col-space5">
-                                <div class="layui-inline layui-show-xs-block">
-                                    <input class="layui-input" autocomplete="off" placeholder="开始日" name="start" id="start1"></div>
-                                <div class="layui-inline layui-show-xs-block">
-                                    <input class="layui-input" autocomplete="off" placeholder="截止日" name="end" id="end1"></div>
-                                <div class="layui-inline layui-show-xs-block">
-                                    <input type="text" name="username" placeholder="请输入用户名"  autocomplete="off" class="layui-input"></div>
-                                <div class="layui-inline layui-show-xs-block">
-                                    <button class="layui-btn" lay-submit="" lay-filter="sreach">
-                                        <i class="layui-icon">&#xe615;</i></button>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="layui-card-body ">
-                            <table class="layui-table" lay-data="{url:'saleandorder/selectAll',page:true,toolbar: '#toolbarDemo',id:'test'}" lay-filter="test">
-                                <thead>
-                                <tr>
-                                    <th lay-data="{type:'checkbox'}">ID</th>
-                                    <th lay-data="{field:'ordernumber', width:150, sort: true, edit: 'text'}">计划订单编号</th>
-                                    <th lay-data="{field:'ordernumber2', width:150, sort: true, edit: 'text'}">关联订单编号</th>
-                                    <th lay-data="{field:'customername', edit: 'text', minWidth: 80}">收货人</th>
-                                    <th lay-data="{field:'stotal', edit: 'text', minWidth: 80}">总金额</th>
-                                    <th lay-data="{field:'status', edit: 'text', minWidth: 80,templet: '#orderTemp'}">订单状态</th>
-                                    <th lay-data="{field:'rdate', sort: true, edit: 'text'}">交货日期</th>
-                                    <th lay-data="{field:'sdate', sort: true, edit: 'text'}">下单时间</th>
-                                    <th lay-data="{field:'inspect', sort: true, edit: 'text'}">制单人</th>
-                                    <th lay-data="{field:'author', sort: true, edit: 'text'}">审核人</th>
-                                    <th lay-data="{field:'remarks', sort: true, edit: 'text'}">备注</th>
-                                </thead>
-                            </table>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="layui-fluid" id="xx">
+        <div class="layui-fluid">
             <div class="layui-row layui-col-space15">
                 <div class="layui-col-md12">
                     <div class="layui-card">
@@ -104,57 +63,88 @@
                         <div class="layui-card-header">
                             <button class="layui-btn layui-btn-danger" onclick="delAll()">
                                 <i class="layui-icon"></i>批量删除</button>
-                            <button class="layui-btn" onclick="xadmin.open('添加用户','/order-add.html',800,700)">
+                            <button class="layui-btn" onclick="xadmin.open('添加用户','./order-add.html',800,600)">
                                 <i class="layui-icon"></i>添加</button></div>
                         <div class="layui-card-body ">
-                            <table class="layui-table layui-form " id="xtable"  >
+                            <table class="layui-table layui-form">
                                 <thead>
-                                <tr>
-                                    <th  rowspan="3">  <input type="checkbox" name=""  lay-filter="checkall" lay-skin="primary"></th>
-                                    <th  rowspan="3">订单编号</th>
-                                    <th  rowspan="3">商品名</th>
-                                    <th  colspan="7"  style="text-align: center">商品信息</th>
-                                    <th colspan="2"  style="text-align: center">其他</th>
-                                    <th lay-data="{fixed: 'right', width: 160, align: 'center'}" rowspan="3">操作</th>
-                                </tr>
-                                <tr>
-                                    <th  rowspan="2">数量</th>
-                                    <th  rowspan="2">单位</th>
-                                    <th  colspan="5"  style="text-align: center">详细</th>
-                                    <th  rowspan="2">支付方式</th>
-                                    <th  rowspan="2">发货方式</th>
-                                </tr>
-                                <tr>
-                                    <th  rowspan="2">商品价格</th>
-                                    <th>折扣</th>
-                                    <th>税率</th>
-                                    <th>折税价</th>
-                                    <th>备注</th>
-                                </tr>
+                                    <tr>
+                                        <th>
+                                            <input type="checkbox" name="" lay-skin="primary">
+                                        </th>
+                                        <th>订单编号</th>
+                                        <th>收货人</th>
+                                        <th>总金额</th>
+                                        <th>应付金额</th>
+                                        <th>订单状态</th>
+                                        <th>支付状态</th>
+                                        <th>发货状态</th>
+                                        <th>支付方式</th>
+                                        <th>配送方式</th>
+                                        <th>下单时间</th>
+                                        <th>操作</th></tr>
                                 </thead>
-                                <tbody id="tbody">
-                                    <tr v-for="item in list">
-                                        <td><input type="checkbox" name="" lay-skin="primary">
-                                        <td>{{item.ordernumber}}</td>
-                                        <td>{{item.rname}}</td>
-                                        <td>{{item.scount}}</td>
-                                        <td>{{item.sunit}}</td>
-                                        <td>{{item.sprice}}</td>
-                                        <td>{{item.sdiscount}}</td>
-                                        <td>{{item.stax}}</td>
-                                        <td>{{item.stotal}}</td>
-                                        <td>{{item.remarks}}</td>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" lay-skin="primary"></td>
+                                        <td>2017009171822298053</td>
+                                        <td>老王:18925139194</td>
+                                        <td>7829.10</td>
+                                        <td>7854.10</td>
+                                        <td>待确认</td>
+                                        <td>未支付</td>
+                                        <td>未发货</td>
                                         <td>其他方式</td>
                                         <td>申通物流</td>
-
+                                        <td>2017-08-17 18:22</td>
                                         <td class="td-manage">
-                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')"  @click="sendMessage(item.ordernumber)" href="javascript:;">
+                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
                                                 <i class="layui-icon">&#xe63c;</i></a>
                                             <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
                                                 <i class="layui-icon">&#xe640;</i></a>
                                         </td>
                                     </tr>
-
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" lay-skin="primary"></td>
+                                        <td>2017009171822298053</td>
+                                        <td>老王:18925139194</td>
+                                        <td>7829.10</td>
+                                        <td>7854.10</td>
+                                        <td>待确认</td>
+                                        <td>未支付</td>
+                                        <td>未发货</td>
+                                        <td>其他方式</td>
+                                        <td>申通物流</td>
+                                        <td>2017-08-17 18:22</td>
+                                        <td class="td-manage">
+                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
+                                                <i class="layui-icon">&#xe63c;</i></a>
+                                            <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                                <i class="layui-icon">&#xe640;</i></a>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <input type="checkbox" name="" lay-skin="primary"></td>
+                                        <td>2017009171822298053</td>
+                                        <td>老王:18925139194</td>
+                                        <td>7829.10</td>
+                                        <td>7854.10</td>
+                                        <td>待确认</td>
+                                        <td>未支付</td>
+                                        <td>未发货</td>
+                                        <td>其他方式</td>
+                                        <td>申通物流</td>
+                                        <td>2017-08-17 18:22</td>
+                                        <td class="td-manage">
+                                            <a title="查看" onclick="xadmin.open('编辑','order-view.html')" href="javascript:;">
+                                                <i class="layui-icon">&#xe63c;</i></a>
+                                            <a title="删除" onclick="member_del(this,'要删除的id')" href="javascript:;">
+                                                <i class="layui-icon">&#xe640;</i></a>
+                                        </td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>
@@ -173,144 +163,10 @@
                 </div>
             </div>
         </div>
-
     </body>
-    <script src="/js/vue-2.4.0.js"></script>
-    <script src="/js/axios.min.js"></script>
-    <script src="/js/qs.min.js"></script>
-
-    <script>
-        var vm=new Vue({
-            el:"#xx",
-            data:{
-               list:[],
-                list2:[],
-                 orderId:null
-            },
-            methods:{
-                sendMessage(){
-                    var data=  Qs.stringify({"ordernumber":this.orderId});
-                    axios.post('relatedsaleandorder/queryAll',data, {headers:{'Content-Type':'application/x-www-form-urlencoded'}}).then(res=>{
-                        console.log(res.data.data);
-                        this.list=res.data.data;
-
-                    }).catch(err=>{
-                        alert('请求失败')
-                    })
-                }
-            },
-            mounted(){
-
-             },
-            updated:function(){
-                layui.use('form',function(){
-                    var form=layui.form;
-                    form.render();
-                });
-                layui.use('table',function(){
-                    var table=layui.table;
-                    table.render();
-                });
-            }
-        });
-    </script>
-    <script>
-        var v1=new Vue({
-            el:"#v1",
-            data:{
-                list:[],
-            },
-            mounted(){
-            }
-        });
-    </script>
-    <script>
-        layui.use('laypage', function(){
-            var laypage = layui.laypage;
-
-            //执行一个laypage实例
-            laypage.render({
-                elem: 'test' //注意，这里的 test1 是 ID，不用加 # 号
-                ,count: 50 //数据总数，从服务端得到
-            });
-        });
-    </script>
-    <script type="text/html" id="orderTemp">
-        {{#  if(d.status === '未出库'){ }}
-        <span style="color: #F581B1;">{{ d.status }}</span>
-        {{#  } else if(d.status === '已出库'){ }}
-        <span style="color: #98F898;">{{ d.status }}</span>
-        {{#  } else { }}
-        {{ d.status }}
-        {{#  } }}
-    </script>
-    <script>
-
-    </script>
-    <script>layui.use('table',
-        function() {
-            var table = layui.table;
-            //监听单元格编辑
-            table.on('edit(test)',
-                function(obj) {
-                    var value = obj.value //得到修改后的值
-                        ,
-                        data = obj.data //得到所在行所有键值
-                        ,
-                        field = obj.field; //得到字段
-                    layer.msg('[ID: ' + data.id + '] ' + field + ' 字段更改为：' + value);
-                });
-
-            //监听行单击事件（双击事件为：rowDouble）
-            table.on('row(test)', function(obj){
-                var data = obj.data.ordernumber;
-                vm.$data.orderId=data;
-                vm.sendMessage();
-
-                // layer.alert(JSON.stringify(data), {
-                //     title: '当前行数据：'
-                // });
-
-                //标注选中样式
-                obj.tr.addClass('layui-table-click').siblings().removeClass('layui-table-click');
-            });
-
-            //头工具栏事件
-            table.on('toolbar(test)',
-                function(obj) {
-                    var checkStatus = table.checkStatus(obj.config.id);
-                    switch (obj.event) {
-                        case 'getCheckData':
-                            var data = checkStatus.data;
-                            layer.alert(JSON.stringify(data));
-                            break;
-                        case 'getCheckLength':
-                            var data = checkStatus.data;
-                            layer.msg('选中了：' + data.length + ' 个');
-                            break;
-                        case 'isAll':
-                            layer.msg(checkStatus.isAll ? '全选': '未全选');
-                            break;
-                    };
-                });
-
-        });</script>
-
-
     <script>layui.use(['laydate', 'form'],
         function() {
             var laydate = layui.laydate;
-            var  form = layui.form;
-            // 监听全选
-            form.on('checkbox(checkall)', function(data){
-
-                if(data.elem.checked){
-                    $('#tbody input').prop('checked',true);
-                }else{
-                    $('#tbody input').prop('checked',false);
-                }
-                form.render('checkbox');
-            });
 
             //执行一个laydate实例
             laydate.render({
@@ -321,9 +177,7 @@
             laydate.render({
                 elem: '#end' //指定元素
             });
-
         });
-
 
         /*用户-停用*/
         function member_stop(obj, id) {
@@ -343,7 +197,6 @@
                     });
 
                 } else {
-
                     $(obj).attr('title', '启用');
                     $(obj).find('i').html('&#xe601;');
 
@@ -383,37 +236,5 @@
                 $(".layui-form-checked").not('.header').parents('tr').remove();
             });
         }</script>
-
-
-    <script type="text/html" id="toolbarDemo">
-        <div class = "layui-btn-container" >
-            <button class = "layui-btn layui-btn-sm" lay-event = "getCheckData" > 获取选中行数据 </button>
-            <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button >
-            <button class = "layui-btn layui-btn-sm" lay-event = "isAll" > 验证是否全选</button>
-        </div >
-    </script>
-    <script type="text/html" id="switchTpl">
-        <!-- 这里的checked的状态只是演示 -->
-        <input type = "checkbox" name = "sex" value = "{{d.id}}" lay-skin = "switch"lay-text = "女|男" lay-filter = "sexDemo" {{ d.id == 10003 ? 'checked': ''}} >
-    </script>
-    <script>layui.use('laydate',
-        function() {
-            var laydate = layui.laydate;
-
-            //执行一个laydate实例
-            laydate.render({
-                elem: '#start1' //指定元素
-            });
-
-            //执行一个laydate实例
-            laydate.render({
-                elem: '#end1' //指定元素
-            });
-
-        });</script>
-
-
-
-
 
 </html>

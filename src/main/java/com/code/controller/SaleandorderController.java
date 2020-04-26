@@ -47,11 +47,10 @@ public class SaleandorderController {
      */
     @RequestMapping("selectAll")
     public Map<String,Object> selectAll(@RequestParam("page") int pageNum, @RequestParam("limit") int pageSize){
-        List<Saleandorder> list =this.saleandorderService.selectAll();
         PageInfo<Saleandorder> pageInfo = this.saleandorderService.selectAllForPage(pageNum,pageSize);
         System.out.println(pageInfo);
         Map<String,Object> map = new HashMap<>();
-        map.put("data",list);
+        map.put("data",pageInfo.getList());
         map.put("code",0);
         map.put("count",pageInfo.getTotal());
         return map;
