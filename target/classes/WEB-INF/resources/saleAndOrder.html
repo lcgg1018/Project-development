@@ -49,15 +49,15 @@
                                 <thead>
                                 <tr>
                                     <th lay-data="{type:'checkbox'}">ID</th>
-                                    <th lay-data="{field:'ordernumber', width:150, sort: true, edit: 'text'}">计划订单编号</th>
-                                    <th lay-data="{field:'ordernumber2', width:150, sort: true, edit: 'text'}">关联订单编号</th>
+                                    <th lay-data="{field:'ordernumber', width:150, sort: true}">计划订单编号</th>
+                                    <th lay-data="{field:'ordernumber2', width:150, sort: true}">关联订单编号</th>
                                     <th lay-data="{field:'customername', edit: 'text', minWidth: 80}">收货人</th>
-                                    <th lay-data="{field:'stotal', edit: 'text', minWidth: 80}">总金额</th>
+                                    <th lay-data="{field:'stotal', edit: 'text', minWidth: 80,templet:'#RMB'}">总金额</th>
                                     <th lay-data="{field:'status', edit: 'text', minWidth: 80,templet: '#orderTemp'}">订单状态</th>
                                     <th lay-data="{field:'rdate', sort: true, edit: 'text',templet: '#timeTemp'}">交货日期</th>
                                     <th lay-data="{field:'sdate', sort: true, edit: 'text',templet: '#timeTemp2'}">下单时间</th>
-                                    <th lay-data="{field:'inspect', sort: true, edit: 'text'}">制单人</th>
-                                    <th lay-data="{field:'author', sort: true, edit: 'text'}">审核人</th>
+                                    <th lay-data="{field:'author', sort: true, edit: 'text'}">制单人</th>
+                                    <th lay-data="{field:'inspect', sort: true, edit: 'text'}">审核人</th>
                                     <th lay-data="{field:'remarks', sort: true, edit: 'text'}">备注</th>
                                 </thead>
                             </table>
@@ -111,10 +111,10 @@
                                         <td>{{item.rname}}</td>
                                         <td>{{item.scount}}</td>
                                         <td>{{item.sunit}}</td>
-                                        <td>{{item.sprice}}</td>
+                                        <td>{{item.sprice|RMB}}</td>
                                         <td>{{item.sdiscount}}</td>
                                         <td>{{item.stax}}</td>
-                                        <td>{{item.stotal}}</td>
+                                        <td>{{item.stotal|RMB}}</td>
                                         <td>{{item.remarks}}</td>
                                         <td>{{item.paymethod}}</td>
                                         <td>{{item.address}}</td>
@@ -183,6 +183,11 @@
                     var table=layui.table;
                     table.render();
                 });
+            },
+            filters: {
+                RMB: function (value) {
+                    return value + '￥';
+                }
             }
         });
     </script>
@@ -221,6 +226,9 @@
     </script>
     <script type="text/html" id="timeTemp2">
         {{layui.util.toDateString(d.sdate, 'yyyy-MM-dd HH:mm:ss')}}
+    </script>
+    <script type="text/html" id="RMB">
+        {{d.stotal+'￥'}}
     </script>
     <script>
     function openAdd() {
@@ -288,6 +296,24 @@
                             break;
                         case 'isAll':
                             layer.msg(checkStatus.isAll ? '全选': '未全选');
+                            break;
+                        case 'delAny':
+                            $.ajax({
+                                url:"传",
+                                data:{'id':id},
+                                type:"Post",
+                                dataType:"json",
+                                success:function(data){
+                                    console.log(data);
+                                    layer.msg(data.msg);
+                                    location.reload(); //删除成功后再刷新
+                                },
+                                error:function(data){
+                                    $.messager.alert('错误',data.msg);
+                                }
+                            });
+                            var data=checkStatus.data;
+                            layer.msg(JSON.stringify(data[0].ordernumber)+"删除成功！");
                             break;
                     };
                 });
@@ -385,6 +411,7 @@
 
     <script type="text/html" id="toolbarDemo">
         <div class = "layui-btn-container" >
+            <button class="layui-btn-danger layui-btn layui-btn-sm" lay-event="delAny"> <i class="layui-icon"></i>批量删除</button></button>
             <button class = "layui-btn layui-btn-sm" lay-event = "getCheckData" > 获取选中行数据 </button>
             <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button >
             <button class = "layui-btn layui-btn-sm" lay-event = "isAll" > 验证是否全选</button>
