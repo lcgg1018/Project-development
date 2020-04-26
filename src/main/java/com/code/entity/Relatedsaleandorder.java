@@ -6,17 +6,17 @@ import java.io.Serializable;
  * (Relatedsaleandorder)实体类
  *
  * @author yap
- * @since 2020-04-19 02:16:42
+ * @since 2020-04-26 16:29:19
  */
 public class Relatedsaleandorder implements Serializable {
-    private static final long serialVersionUID = -57008430266647250L;
-
+    private static final long serialVersionUID = -71747920812316303L;
+    
     private Integer sid;
     /**
     * 编号
     */
     private String ordernumber;
-
+    
     private String rname;
     /**
     * 单位
@@ -38,7 +38,7 @@ public class Relatedsaleandorder implements Serializable {
     * 仓库
     */
     private Integer wid;
-
+    
     private String sdiscount;
     /**
     * 总价
@@ -48,6 +48,14 @@ public class Relatedsaleandorder implements Serializable {
     * 备注
     */
     private String remarks;
+    /**
+    * 地址
+    */
+    private String address;
+    /**
+    * 支付方式
+    */
+    private String paymethod;
 
 
     public Integer getSid() {
@@ -138,20 +146,20 @@ public class Relatedsaleandorder implements Serializable {
         this.remarks = remarks;
     }
 
-    @Override
-    public String toString() {
-        return "Relatedsaleandorder{" +
-                "sid=" + sid +
-                ", ordernumber='" + ordernumber + '\'' +
-                ", rname='" + rname + '\'' +
-                ", sunit='" + sunit + '\'' +
-                ", sprice='" + sprice + '\'' +
-                ", scount='" + scount + '\'' +
-                ", stax='" + stax + '\'' +
-                ", wid=" + wid +
-                ", sdiscount='" + sdiscount + '\'' +
-                ", stotal='" + stotal + '\'' +
-                ", remarks='" + remarks + '\'' +
-                '}';
+    public String getAddress() {
+        return address;
     }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPaymethod() {
+        return paymethod;
+    }
+
+    public void setPaymethod(String paymethod) {
+        this.paymethod = paymethod;
+    }
+
 }

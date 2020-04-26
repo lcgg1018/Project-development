@@ -54,8 +54,8 @@
                                     <th lay-data="{field:'customername', edit: 'text', minWidth: 80}">收货人</th>
                                     <th lay-data="{field:'stotal', edit: 'text', minWidth: 80}">总金额</th>
                                     <th lay-data="{field:'status', edit: 'text', minWidth: 80,templet: '#orderTemp'}">订单状态</th>
-                                    <th lay-data="{field:'rdate', sort: true, edit: 'text'}">交货日期</th>
-                                    <th lay-data="{field:'sdate', sort: true, edit: 'text'}">下单时间</th>
+                                    <th lay-data="{field:'rdate', sort: true, edit: 'text',templet: '#timeTemp'}">交货日期</th>
+                                    <th lay-data="{field:'sdate', sort: true, edit: 'text',templet: '#timeTemp2'}">下单时间</th>
                                     <th lay-data="{field:'inspect', sort: true, edit: 'text'}">制单人</th>
                                     <th lay-data="{field:'author', sort: true, edit: 'text'}">审核人</th>
                                     <th lay-data="{field:'remarks', sort: true, edit: 'text'}">备注</th>
@@ -71,40 +71,12 @@
                 <div class="layui-col-md12">
                     <div class="layui-card">
                         <div class="layui-card-body ">
-                            <form class="layui-form layui-col-space5">
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <input class="layui-input" placeholder="开始日" name="start" id="start"></div>
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <input class="layui-input" placeholder="截止日" name="end" id="end"></div>
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <select name="contrller">
-                                        <option>支付方式</option>
-                                        <option>支付宝</option>
-                                        <option>微信</option>
-                                        <option>货到付款</option></select>
-                                </div>
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <select name="contrller">
-                                        <option value="">订单状态</option>
-                                        <option value="0">待确认</option>
-                                        <option value="1">已确认</option>
-                                        <option value="2">已收货</option>
-                                        <option value="3">已取消</option>
-                                        <option value="4">已完成</option>
-                                        <option value="5">已作废</option></select>
-                                </div>
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <input type="text" name="username" placeholder="请输入订单号" autocomplete="off" class="layui-input"></div>
-                                <div class="layui-input-inline layui-show-xs-block">
-                                    <button class="layui-btn" lay-submit="" lay-filter="sreach">
-                                        <i class="layui-icon">&#xe615;</i></button>
-                                </div>
-                            </form>
+
                         </div>
                         <div class="layui-card-header">
                             <button class="layui-btn layui-btn-danger" onclick="delAll()">
                                 <i class="layui-icon"></i>批量删除</button>
-                            <button class="layui-btn" onclick="xadmin.open('添加用户','/order-add.html',800,700)">
+                            <button class="layui-btn" onclick="openAdd()">
                                 <i class="layui-icon"></i>添加</button></div>
                         <div class="layui-card-body ">
                             <table class="layui-table layui-form " id="xtable"  >
@@ -144,8 +116,8 @@
                                         <td>{{item.stax}}</td>
                                         <td>{{item.stotal}}</td>
                                         <td>{{item.remarks}}</td>
-                                        <td>其他方式</td>
-                                        <td>申通物流</td>
+                                        <td>{{item.paymethod}}</td>
+                                        <td>{{item.address}}</td>
 
                                         <td class="td-manage">
                                             <a title="查看" onclick="xadmin.open('编辑','order-view.html')"  @click="sendMessage(item.ordernumber)" href="javascript:;">
@@ -244,8 +216,34 @@
         {{ d.status }}
         {{#  } }}
     </script>
+    <script type="text/html" id="timeTemp">
+        {{layui.util.toDateString(d.rdate, 'yyyy-MM-dd HH:mm:ss')}}
+    </script>
+    <script type="text/html" id="timeTemp2">
+        {{layui.util.toDateString(d.sdate, 'yyyy-MM-dd HH:mm:ss')}}
+    </script>
     <script>
+    function openAdd() {
+        if (vm.$data.orderId!=null){
+            layer.open({
+                type: 2,
+                closeBtn:2,
+                title: "计划商品添加",
+                shade: 0.4,
+                area: ['900px', '800px'],
+                anim: 2,
+                content: ['/SaleAndOrder-add.html'],
+                success: function (layero, index) {
+                    var iframe = window['layui-layer-iframe' + index];//拿到iframe元素
+                    iframe.child(vm.$data.orderId);
+                    //iframe.child(JSON.stringify(data))//向此iframe层方法 传递参数
+                }
+            });
+        }else {
+            layer.msg("请选择一个计划订单！");
+        }
 
+    }
     </script>
     <script>layui.use('table',
         function() {

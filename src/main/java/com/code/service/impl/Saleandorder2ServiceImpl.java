@@ -12,7 +12,7 @@ import java.util.List;
  * (Saleandorder2)表服务实现类
  *
  * @author yap
- * @since 2020-04-21 11:34:06
+ * @since 2020-04-26 16:29:19
  */
 @Service("saleandorder2Service")
 public class Saleandorder2ServiceImpl implements Saleandorder2Service {

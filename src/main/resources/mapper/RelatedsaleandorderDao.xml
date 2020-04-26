@@ -14,12 +14,14 @@
         <result property="sdiscount" column="sdiscount" jdbcType="VARCHAR"/>
         <result property="stotal" column="stotal" jdbcType="VARCHAR"/>
         <result property="remarks" column="Remarks" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="paymethod" column="paymethod" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!--查询单个-->
     <select id="queryById" resultMap="RelatedsaleandorderMap">
         select
-          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks, address, paymethod
         from clothesppsdb.relatedsaleandorder
         where sid = #{sid}
     </select>
@@ -27,14 +29,14 @@
     <!--查询所有的数据-->
     <select id="selectAll" resultMap="RelatedsaleandorderMap">
         select
-          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks, address, paymethod
         from clothesppsdb.relatedsaleandorder
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="RelatedsaleandorderMap">
         select
-          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks
+          sid, OrderNumber, rname, sunit, sprice, scount, stax, wid, sdiscount, stotal, Remarks, address, paymethod
         from clothesppsdb.relatedsaleandorder
         <where>
             <if test="sid != null">
@@ -69,6 +71,12 @@
             </if>
             <if test="remarks != null and remarks != ''">
                 and Remarks = #{remarks}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="paymethod != null and paymethod != ''">
+                and paymethod = #{paymethod}
             </if>
         </where>
     </select>
