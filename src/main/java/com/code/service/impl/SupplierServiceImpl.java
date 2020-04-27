@@ -3,6 +3,9 @@ package com.code.service.impl;
 import com.code.entity.Supplier;
 import com.code.dao.SupplierDao;
 import com.code.service.SupplierService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
+
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -42,6 +45,12 @@ public class SupplierServiceImpl implements SupplierService {
         return this.supplierDao.selectAll();
     }
 
+    public PageInfo<Supplier> selectAllForPage(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum,pageSize);
+        List<Supplier> list =this.supplierDao.selectAll();
+        PageInfo<Supplier> pageInfo = new PageInfo<>(list);
+        return pageInfo;
+    }
     /**
      * 通过实体作为筛选条件查询
      *

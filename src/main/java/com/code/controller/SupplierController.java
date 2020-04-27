@@ -1,9 +1,16 @@
 package com.code.controller;
 
+import com.code.entity.Saleandorder;
 import com.code.entity.Supplier;
 import com.code.service.SupplierService;
+import com.github.pagehelper.PageInfo;
+
 import org.springframework.web.bind.annotation.*;
+
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
+
 import javax.annotation.Resource;
 
 /**
@@ -41,7 +48,7 @@ public class SupplierController {
      */
     @RequestMapping("selectAll")
     public List<Supplier> selectAll(){
-           return this.supplierService.selectAll();
+    	return this.supplierService.selectAll();
     }
     
     
@@ -55,5 +62,12 @@ public class SupplierController {
     public List<Supplier>  queryAll(Supplier supplier){
            return this.supplierService.queryAll(supplier);
     }
-
+    
+    /*
+     * 删除
+     * */
+    @RequestMapping("delbyID")
+    public boolean delbyID(int sid) {
+    	return this.supplierService.deleteById(sid);
+    }
 }

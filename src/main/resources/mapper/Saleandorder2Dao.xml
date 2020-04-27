@@ -10,14 +10,17 @@
         <result property="sdate" column="sdate" jdbcType="TIMESTAMP"/>
         <result property="ordernumber" column="OrderNumber" jdbcType="VARCHAR"/>
         <result property="remarks" column="Remarks" jdbcType="VARCHAR"/>
+        <result property="stotal" column="stotal" jdbcType="VARCHAR"/>
         <result property="author" column="author" jdbcType="VARCHAR"/>
         <result property="inspect" column="inspect" jdbcType="VARCHAR"/>
+        <result property="address" column="address" jdbcType="VARCHAR"/>
+        <result property="paymethod" column="paymethod" jdbcType="VARCHAR"/>
     </resultMap>
 
     <!--查询单个-->
     <select id="queryById" resultMap="Saleandorder2Map">
         select
-          sid, salesman, customername, status, sdate, OrderNumber, Remarks, author, inspect
+          sid, salesman, customername, status, sdate, OrderNumber, Remarks, stotal, author, inspect, address, paymethod
         from clothesppsdb.saleandorder2
         where sid = #{sid}
     </select>
@@ -25,14 +28,14 @@
     <!--查询所有的数据-->
     <select id="selectAll" resultMap="Saleandorder2Map">
         select
-          sid, salesman, customername, status, sdate, OrderNumber, Remarks, author, inspect
+          sid, salesman, customername, status, sdate, OrderNumber, Remarks, stotal, author, inspect, address, paymethod
         from clothesppsdb.saleandorder2
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="Saleandorder2Map">
         select
-          sid, salesman, customername, status, sdate, OrderNumber, Remarks, author, inspect
+          sid, salesman, customername, status, sdate, OrderNumber, Remarks, stotal, author, inspect, address, paymethod
         from clothesppsdb.saleandorder2
         <where>
             <if test="sid != null">
@@ -56,11 +59,20 @@
             <if test="remarks != null and remarks != ''">
                 and Remarks = #{remarks}
             </if>
+            <if test="stotal != null and stotal != ''">
+                and stotal = #{stotal}
+            </if>
             <if test="author != null and author != ''">
                 and author = #{author}
             </if>
             <if test="inspect != null and inspect != ''">
                 and inspect = #{inspect}
+            </if>
+            <if test="address != null and address != ''">
+                and address = #{address}
+            </if>
+            <if test="paymethod != null and paymethod != ''">
+                and paymethod = #{paymethod}
             </if>
         </where>
     </select>

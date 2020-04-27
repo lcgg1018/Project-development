@@ -1,6 +1,9 @@
 package com.code.service;
 
+import com.code.entity.Saleandorder;
 import com.code.entity.Supplier;
+import com.github.pagehelper.PageInfo;
+
 import java.util.List;
 
 /**
@@ -28,6 +31,7 @@ public interface SupplierService {
      */
     List<Supplier>selectAll();
 
+    PageInfo<Supplier> selectAllForPage(int pageNum, int pageSize);
     /**
      * 新增数据
      *

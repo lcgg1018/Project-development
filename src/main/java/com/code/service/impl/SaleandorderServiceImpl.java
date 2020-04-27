@@ -3,6 +3,8 @@ package com.code.service.impl;
 import com.code.entity.Saleandorder;
 import com.code.dao.SaleandorderDao;
 import com.code.service.SaleandorderService;
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
@@ -12,7 +14,7 @@ import java.util.List;
  * (Saleandorder)表服务实现类
  *
  * @author yap
- * @since 2020-04-19 02:16:40
+ * @since 2020-04-26 16:29:19
  */
 @Service("saleandorderService")
 public class SaleandorderServiceImpl implements SaleandorderService {
@@ -33,13 +35,21 @@ public class SaleandorderServiceImpl implements SaleandorderService {
     /**
      * 查询多条数据
      *
-     * @param 
-     * @param 
+     * @param
+     * @param
      * @return 对象列表
      */
     @Override
     public List<Saleandorder> selectAll(){
         return this.saleandorderDao.selectAll();
+    }
+
+    @Override
+    public PageInfo<Saleandorder> selectAllForPage(int pageNum, int pageSize) {
+        PageHelper.startPage(pageNum,pageSize);
+        List<Saleandorder> list =this.saleandorderDao.selectAll();
+        PageInfo<Saleandorder> pageInfo = new PageInfo<>(list);
+        return pageInfo;
     }
 
     /**

@@ -6,10 +6,10 @@ import java.io.Serializable;
  * (Relatedsaleandorder)实体类
  *
  * @author yap
- * @since 2020-04-19 02:16:42
+ * @since 2020-04-26 16:29:19
  */
 public class Relatedsaleandorder implements Serializable {
-    private static final long serialVersionUID = -57008430266647250L;
+    private static final long serialVersionUID = -71747920812316303L;
     
     private Integer sid;
     /**
@@ -48,6 +48,14 @@ public class Relatedsaleandorder implements Serializable {
     * 备注
     */
     private String remarks;
+    /**
+    * 地址
+    */
+    private String address;
+    /**
+    * 支付方式
+    */
+    private String paymethod;
 
 
     public Integer getSid() {
@@ -136,6 +144,22 @@ public class Relatedsaleandorder implements Serializable {
 
     public void setRemarks(String remarks) {
         this.remarks = remarks;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPaymethod() {
+        return paymethod;
+    }
+
+    public void setPaymethod(String paymethod) {
+        this.paymethod = paymethod;
     }
 
 }

@@ -13,6 +13,7 @@ import javax.annotation.Resource;
  * @author yap
  * @since 2020-04-19 02:16:42
  */
+
 @Controller
 @RequestMapping("user")
 public class UserController {
@@ -57,7 +58,8 @@ public class UserController {
     public String  queryAll(User user){
         System.out.println("************");
         List<User> list =  this.userService.queryAll(user);
-        return "index";
+//        return "redirect:/index.html";
+        return "redirect:/yhindex.html";
     }
 
 }

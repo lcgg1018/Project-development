@@ -7,10 +7,10 @@ import java.io.Serializable;
  * (Saleandorder2)实体类
  *
  * @author yap
- * @since 2020-04-19 02:16:39
+ * @since 2020-04-26 16:29:19
  */
 public class Saleandorder2 implements Serializable {
-    private static final long serialVersionUID = 370986733736676873L;
+    private static final long serialVersionUID = -89556632656576727L;
     
     private Integer sid;
     /**
@@ -38,6 +38,10 @@ public class Saleandorder2 implements Serializable {
     */
     private String remarks;
     /**
+    * 总价
+    */
+    private String stotal;
+    /**
     * 制单人
     */
     private String author;
@@ -45,6 +49,14 @@ public class Saleandorder2 implements Serializable {
     * 审核人
     */
     private String inspect;
+    /**
+    * 地址
+    */
+    private String address;
+    /**
+    * 支付方式
+    */
+    private String paymethod;
 
 
     public Integer getSid() {
@@ -103,6 +115,14 @@ public class Saleandorder2 implements Serializable {
         this.remarks = remarks;
     }
 
+    public String getStotal() {
+        return stotal;
+    }
+
+    public void setStotal(String stotal) {
+        this.stotal = stotal;
+    }
+
     public String getAuthor() {
         return author;
     }
@@ -117,6 +137,22 @@ public class Saleandorder2 implements Serializable {
 
     public void setInspect(String inspect) {
         this.inspect = inspect;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPaymethod() {
+        return paymethod;
+    }
+
+    public void setPaymethod(String paymethod) {
+        this.paymethod = paymethod;
     }
 
 }

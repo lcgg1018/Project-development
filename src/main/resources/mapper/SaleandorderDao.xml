@@ -13,6 +13,7 @@
         <result property="ordernumber" column="OrderNumber" jdbcType="VARCHAR"/>
         <result property="ordernumber2" column="OrderNumber2" jdbcType="VARCHAR"/>
         <result property="remarks" column="Remarks" jdbcType="VARCHAR"/>
+        <result property="stotal" column="stotal" jdbcType="VARCHAR"/>
         <result property="author" column="author" jdbcType="VARCHAR"/>
         <result property="inspect" column="inspect" jdbcType="VARCHAR"/>
     </resultMap>
@@ -20,7 +21,7 @@
     <!--查询单个-->
     <select id="queryById" resultMap="SaleandorderMap">
         select
-          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, author, inspect
+          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, stotal, author, inspect
         from clothesppsdb.saleandorder
         where sid = #{sid}
     </select>
@@ -28,14 +29,14 @@
     <!--查询所有的数据-->
     <select id="selectAll" resultMap="SaleandorderMap">
         select
-          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, author, inspect
+          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, stotal, author, inspect
         from clothesppsdb.saleandorder
     </select>
 
     <!--通过实体作为筛选条件查询-->
     <select id="queryAll" resultMap="SaleandorderMap">
         select
-          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, author, inspect
+          sid, category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, stotal, author, inspect
         from clothesppsdb.saleandorder
         <where>
             <if test="sid != null">
@@ -68,6 +69,9 @@
             <if test="remarks != null and remarks != ''">
                 and Remarks = #{remarks}
             </if>
+            <if test="stotal != null and stotal != ''">
+                and stotal = #{stotal}
+            </if>
             <if test="author != null and author != ''">
                 and author = #{author}
             </if>
@@ -79,8 +83,8 @@
 
     <!--新增所有列-->
     <insert id="insert" keyProperty="sid" useGeneratedKeys="true">
-        insert into clothesppsdb.saleandorder(category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, author, inspect)
-        values (#{category}, #{salesman}, #{customername}, #{status}, #{sdate}, #{rdate}, #{ordernumber}, #{ordernumber2}, #{remarks}, #{author}, #{inspect})
+        insert into clothesppsdb.saleandorder(category, salesman, customername, status, sdate, rdate, OrderNumber, OrderNumber2, Remarks, stotal, author, inspect)
+        values (#{category}, #{salesman}, #{customername}, #{status}, #{sdate}, #{rdate}, #{ordernumber}, #{ordernumber2}, #{remarks}, #{stotal}, #{author}, #{inspect})
     </insert>
 
     <!--通过主键修改数据-->
@@ -113,6 +117,9 @@
             </if>
             <if test="remarks != null and remarks != ''">
                 Remarks = #{remarks},
+            </if>
+            <if test="stotal != null and stotal != ''">
+                stotal = #{stotal},
             </if>
             <if test="author != null and author != ''">
                 author = #{author},
