@@ -1,16 +1,262 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2cb36a92-77c6-4e3a-a114-21510b614716" name="Default Changelist" comment="">
+    <list default="true" id="2cb36a92-77c6-4e3a-a114-21510b614716" name="Default Changelist" comment="bug 修改第八次">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-del.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-dynamic-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-sort-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-sort-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/clientele-sort-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/product-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/productType-add.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/productType-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/productType-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-Purchase-summary.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-Smart-replenishment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-approval-selectById.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-order-list-approval.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-order-list-return.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-order-list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-order-list2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/w-purchase-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/CategoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/KehuController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/KehuController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseDetailController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseDetailController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseDetailReturnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseDetailReturnController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseReturnController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseReturnController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/ShangpingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/ShangpingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/controller/WarehouseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/controller/WarehouseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/CategoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/CategoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/KehuDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/KehuDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDetailDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDetailDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDetailReturnDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDetailReturnDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseReturnDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseReturnDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Category.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Kehu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Kehu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/entity/Warehouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/entity/Warehouse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/KehuService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/KehuService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/ProductService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/ProductService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseDetailReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseDetailReturnService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseDetailService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseDetailService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseReturnService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseReturnService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/PurchaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/WarehouseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/WarehouseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/KehuServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/KehuServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/ProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseDetailReturnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseDetailReturnServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseDetailServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseDetailServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseReturnServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseReturnServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/code/service/impl/WarehouseServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/code/service/impl/WarehouseServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/KehuDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/KehuDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/WarehouseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapper/WarehouseDao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/welcome1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/welcome1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/SaleAndOrder-add.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/SaleAndOrder-add.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/saleAndOrder.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/saleAndOrder.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/SaleandorderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome1.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/WEB-INF/resources/welcome1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/AccountController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/AccountController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/ActionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/ActionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/AddressController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/AddressController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/BotpetinventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/BotpetinventoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/CategoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/CategoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/DengjiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/DengjiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/HuiyuanController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/HuiyuanController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/HuiyuankaiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/HuiyuankaiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/InventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/InventoryController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/InvoiceController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/InvoiceController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/KehuController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/KehuController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/OtherinwareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/OtherinwareController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/OtheroutwareController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/OtheroutwareController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/ProducttypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/ProducttypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseDetailController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseDetailController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseDetailReturnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseDetailReturnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseReturnController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/PurchaseReturnController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/Relatedsaleandorder2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/Relatedsaleandorder2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/RoleActionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/RoleActionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/RoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/RoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/Saleandorder2Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/Saleandorder2Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/ShangpingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/ShangpingController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/SupplierController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/SupplierController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/SuppliertypeController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/SuppliertypeController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/TransfersorderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/TransfersorderController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/UserRoleController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/UserRoleController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/WarehouseController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/WarehouseController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/XiaofeiController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/XiaofeiController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/controller/ZhuxiaoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/controller/ZhuxiaoController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/AccountDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/AccountDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/ActionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/ActionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/AddressDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/AddressDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/BotpetinventoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/BotpetinventoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/CategoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/CategoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/DengjiDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/DengjiDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/HuiyuanDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/HuiyuanDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/HuiyuankaiDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/HuiyuankaiDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/InventoryDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/InventoryDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/InvoiceDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/InvoiceDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/KehuDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/KehuDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/OtherinwareDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/OtherinwareDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/OtheroutwareDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/OtheroutwareDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/ProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/ProductDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/ProducttypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/ProducttypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDetailDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDetailDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDetailReturnDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseDetailReturnDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseReturnDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/PurchaseReturnDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/Relatedsaleandorder2Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/Relatedsaleandorder2Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/RelatedsaleandorderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/RelatedsaleandorderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/RoleActionDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/RoleActionDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/RoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/RoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/Saleandorder2Dao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/Saleandorder2Dao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/SaleandorderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/SaleandorderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/ShangpingDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/ShangpingDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/SupplierDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/SupplierDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/SuppliertypeDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/SuppliertypeDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/TransfersorderDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/TransfersorderDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/UserDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/UserDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/UserRoleDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/UserRoleDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/WarehouseDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/WarehouseDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/XiaofeiDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/XiaofeiDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/dao/ZhuxiaoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/dao/ZhuxiaoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Account.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Account.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/AccountReceivableDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/AccountReceivableDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/AccountsPayableDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/AccountsPayableDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Action.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Action.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Address.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Address.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Botpetinventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Botpetinventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/CancelAfterVerification.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/CancelAfterVerification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/CashStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/CashStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Category.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Category.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/CustomerStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/CustomerStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Dengji.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Dengji.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Huiyuan.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Huiyuan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Huiyuankai.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Huiyuankai.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Inventory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Invoice.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Invoice.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Kehu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Kehu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/MoneyTransfer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/MoneyTransfer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/OtherExpenses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/OtherExpenses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/OtherIncomeAndExpenditureDetails.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/OtherIncomeAndExpenditureDetails.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/OtherRevenue.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/OtherRevenue.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Otherinware.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Otherinware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Otheroutware.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Otheroutware.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/PayAccount.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/PayAccount.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Payment.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Payment.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/PaymentMethod.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/PaymentMethod.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/ProcurementSellExpenses.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/ProcurementSellExpenses.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Product.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Producttype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Producttype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Profit.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Profit.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Purchase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Purchase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseDetail.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseDetail.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseDetailReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseDetailReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseReturn.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/PurchaseReturn.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Receipt.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Receipt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Relatedsaleandorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Relatedsaleandorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Relatedsaleandorder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Relatedsaleandorder2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/RoleAction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/RoleAction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Saleandorder2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Shangping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Shangping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/SpendingCategory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/SpendingCategory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Supplier.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Supplier.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/SupplierStatement.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/SupplierStatement.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Suppliertype.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Suppliertype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Transfersorder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Transfersorder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/UserRole.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/UserRole.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Warehouse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Warehouse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Xiaofei.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Xiaofei.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/entity/Zhuxiao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/entity/Zhuxiao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/AccountService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/AccountService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/ActionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/ActionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/AddressService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/AddressService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/BotpetinventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/BotpetinventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/CategoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/CategoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/DengjiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/DengjiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/HuiyuanService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/HuiyuanService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/HuiyuankaiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/HuiyuankaiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/InventoryService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/InvoiceService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/InvoiceService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/KehuService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/KehuService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/OtherinwareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/OtherinwareService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/OtheroutwareService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/OtheroutwareService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/ProductService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/ProducttypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/ProducttypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseDetailReturnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseDetailReturnService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseDetailService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseDetailService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseReturnService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseReturnService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/PurchaseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/Relatedsaleandorder2Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/Relatedsaleandorder2Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/RelatedsaleandorderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/RelatedsaleandorderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/RoleActionService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/RoleActionService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/RoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/RoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/Saleandorder2Service.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/Saleandorder2Service.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/SaleandorderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/SaleandorderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/ShangpingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/ShangpingService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/SupplierService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/SupplierService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/SuppliertypeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/SuppliertypeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/TransfersorderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/TransfersorderService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/UserRoleService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/UserRoleService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/WarehouseService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/WarehouseService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/XiaofeiService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/XiaofeiService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/ZhuxiaoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/ZhuxiaoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/AccountServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/AccountServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/ActionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/ActionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/AddressServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/AddressServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/BotpetinventoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/BotpetinventoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/CategoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/CategoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/DengjiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/DengjiServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/HuiyuanServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/HuiyuanServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/HuiyuankaiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/HuiyuankaiServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/InventoryServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/InventoryServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/InvoiceServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/InvoiceServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/KehuServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/KehuServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/OtherinwareServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/OtherinwareServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/OtheroutwareServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/OtheroutwareServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/ProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/ProductServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/ProducttypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/ProducttypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseDetailReturnServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseDetailReturnServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseDetailServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseDetailServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseReturnServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseReturnServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/PurchaseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/Relatedsaleandorder2ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/Relatedsaleandorder2ServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/RelatedsaleandorderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/RelatedsaleandorderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/RoleActionServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/RoleActionServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/RoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/RoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/Saleandorder2ServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/Saleandorder2ServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/SaleandorderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/SaleandorderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/ShangpingServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/ShangpingServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/SupplierServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/SupplierServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/SuppliertypeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/SuppliertypeServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/TransfersorderServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/TransfersorderServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/UserRoleServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/UserRoleServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/WarehouseServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/WarehouseServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/XiaofeiServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/XiaofeiServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/code/service/impl/ZhuxiaoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/code/service/impl/ZhuxiaoServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/WarehouseDao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapper/WarehouseDao.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -56,97 +302,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+            <state relative-caret-position="316">
+              <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/clientele-add.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/CategoryServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/CategoryService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CategoryDao.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/CategoryController.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/Category.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="334">
-              <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
+            <state relative-caret-position="260">
+              <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="52">
-              <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="33">
+              <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/App.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/ShangpingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="37" column="7" selection-start-line="37" selection-start-column="7" selection-end-line="37" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2184">
-              <caret line="96" column="29" selection-start-line="96" selection-start-column="19" selection-end-line="96" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/SaleandorderDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-              <folding>
-                <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-              </folding>
+            <state relative-caret-position="174">
+              <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -240,11 +456,12 @@
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/impl/SaleandorderServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/service/SaleandorderService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/webapp/saleAndOrder.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.html" />
       </list>
     </option>
   </component>
@@ -311,6 +528,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -344,19 +562,11 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="DistributionSystem" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DistributionSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -372,7 +582,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.console.LAST_STATE" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/lib/layui/lay/modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/mapper" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.jscs" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -393,11 +603,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\lib\layui\lay\modules" />
-      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp" />
-      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\js" />
-      <recent name="D:\IDEWORK\DistributionSystem\src\main\webapp\WEB-INF\page" />
-      <recent name="D:\IDEWORK\DistributionSystem" />
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\resources\mapper" />
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\java\com\code\entity" />
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\java\com\code\controller" />
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\java\com\code\dao" />
+      <recent name="D:\IDEWORK\DistributionSystem\src\main\java\com\code\service" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -461,6 +671,7 @@
       <workItem from="1587882717885" duration="21336000" />
       <workItem from="1587910510587" duration="47000" />
       <workItem from="1587910594509" duration="3328000" />
+      <workItem from="1587946505441" duration="5154000" />
     </task>
     <task id="LOCAL-00001" summary="部署....">
       <created>1587200949877</created>
@@ -567,11 +778,18 @@
       <option name="project" value="LOCAL" />
       <updated>1587901396176</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="bug 修改第八次">
+      <created>1587946716622</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1587946716622</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123001000" />
+    <option name="totallyTimeSpent" value="128155000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -586,7 +804,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32942432" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.17590618" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.34541577" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -619,7 +837,7 @@
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32942432" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" visible="true" weight="0.40938166" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49946696" weight="0.17590618" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -631,11 +849,11 @@
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32942432" />
       <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
       <window_info anchor="bottom" x="28" y="380" width="1876" height="353" id="Run" order="14" sideWeight="0.4989339" side_tool="true" type="SLIDING" weight="0.23773988" />
-      <window_info anchor="bottom" id="Version Control" order="15" weight="0.32942432" />
+      <window_info anchor="bottom" id="Version Control" order="15" visible="true" weight="0.32942432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" sideWeight="0.49920508" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" sideWeight="0.47547975" weight="0.32995737" />
+      <window_info anchor="right" id="Maven" order="3" sideWeight="0.47547975" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" x="0" y="0" width="434" height="896" id="Documentation" order="5" sideWeight="0.35793358" side_tool="true" weight="0.2196162" />
       <window_info anchor="right" id="Database" order="6" sideWeight="0.6420664" weight="0.2196162" />
@@ -698,121 +916,14 @@
     <MESSAGE value="bug 修改第五次" />
     <MESSAGE value="bug 修改第六次" />
     <MESSAGE value="bug 修改第七次" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug 修改第七次" />
+    <MESSAGE value="bug 修改第八次" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug 修改第八次" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/css/font.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/admin-cate.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/welcome.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/page/index.html" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="728">
-          <caret line="28" column="49" selection-start-line="28" selection-start-column="49" selection-end-line="28" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/log.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/error.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/member-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="38" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="52" column="16" lean-forward="true" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/vue-2.4.0.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2912">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/axios.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="8" column="34" lean-forward="true" selection-start-line="8" selection-start-column="34" selection-end-line="8" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/member-password.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="20" column="35" lean-forward="true" selection-start-line="20" selection-start-column="35" selection-end-line="20" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/order-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="62" column="52" lean-forward="true" selection-start-line="62" selection-start-column="52" selection-end-line="62" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-cate.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1118">
-          <caret line="55" column="42" lean-forward="true" selection-start-line="55" selection-start-column="42" selection-end-line="55" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/admin-edit.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-182">
-          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/lib/layui/layui.all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="26">
-          <caret line="4" column="23168" selection-start-line="4" selection-start-column="23168" selection-end-line="4" selection-end-column="23168" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/xadmin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="441">
-          <caret line="95" column="25" selection-start-line="95" selection-start-column="25" selection-end-line="95" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="12" column="14" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RelatedsaleandorderDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
@@ -940,17 +1051,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="162" column="25" lean-forward="true" selection-start-line="162" selection-start-column="25" selection-end-line="162" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/SaleandorderDao.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2938">
           <caret line="113" column="17" selection-start-line="113" selection-start-column="17" selection-end-line="113" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1560">
+          <caret line="70" column="25" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="52">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/App.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -975,37 +1103,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
-          <folding>
-            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/App.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/SaleandorderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="70" column="25" lean-forward="true" selection-start-line="70" selection-start-column="25" selection-end-line="70" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/RelatedsaleandorderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="56" column="35" lean-forward="true" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
+        <state relative-caret-position="1170">
+          <caret line="56" column="35" selection-start-line="56" selection-start-column="35" selection-end-line="56" selection-end-column="35" />
         </state>
       </provider>
     </entry>
@@ -1016,17 +1117,107 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/SaleAndOrder-add.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="31" lean-forward="true" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        <state relative-caret-position="182">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
+          <folding>
+            <element signature="n#div#0;n#form#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/saleAndOrder.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="137" column="61" selection-start-line="137" selection-start-column="61" selection-end-line="137" selection-end-column="61" />
+        <state relative-caret-position="308">
+          <caret line="55" column="93" selection-start-line="55" selection-start-column="93" selection-end-line="55" selection-end-column="93" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/ProductController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/ProductServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/ProductService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/Product.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ProductDao.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/product-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/w-approval-selectById.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/PurchaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-903">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/PurchaseDetailReturnService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/PurchaseDetailReturnServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/PurchaseDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/PurchaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="33">
+          <caret line="64" column="23" selection-start-line="64" selection-start-column="23" selection-end-line="64" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/ShangpingController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="47" column="44" lean-forward="true" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="129" column="72" selection-start-line="129" selection-start-column="72" selection-end-line="129" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/clientele-add.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/dao/CategoryDao.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/controller/CategoryController.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/code/entity/Category.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/CategoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="51" lean-forward="true" selection-start-line="10" selection-start-column="51" selection-end-line="10" selection-end-column="51" />
         </state>
       </provider>
     </entry>
