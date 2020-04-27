@@ -58,7 +58,8 @@ public class UserController {
     public String  queryAll(User user){
         System.out.println("************");
         List<User> list =  this.userService.queryAll(user);
-        return "redirect:/index.html";
+//        return "redirect:/index.html";
+        return "redirect:/yhindex.html";
     }
 
 }
