@@ -298,22 +298,34 @@
                             layer.msg(checkStatus.isAll ? '全选': '未全选');
                             break;
                         case 'delAny':
+                            //var data=checkStatus.data[1].sid;
+                            var sid=new Array();
+                            for (var i=0;i<checkStatus.data.length;i++){
+                                var data=checkStatus.data[i].sid;
+                                sid.push(data);
+                            }
+                            //var sid=JSON.stringify(sid);
                             $.ajax({
-                                url:"传",
-                                data:{'id':id},
-                                type:"Post",
-                                dataType:"json",
+                                url:"saleandorder/del",
+                                data:{sid:sid},
+                                type:"get",
+                                traditional:true,
+                                contentType:"application/json",
                                 success:function(data){
-                                    console.log(data);
-                                    layer.msg(data.msg);
-                                    location.reload(); //删除成功后再刷新
+                                    //layer.msg(data);
+                                    layer.open({
+                                        title: '成功'
+                                        ,content: data
+                                    });
+                                    //location.reload(); //删除成功后再刷新
                                 },
                                 error:function(data){
-                                    $.messager.alert('错误',data.msg);
+                                    layer.open({
+                                        title: '错误'
+                                        ,content: data
+                                    });
                                 }
                             });
-                            var data=checkStatus.data;
-                            layer.msg(JSON.stringify(data[0].ordernumber)+"删除成功！");
                             break;
                     };
                 });

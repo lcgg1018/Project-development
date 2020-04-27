@@ -56,7 +56,6 @@ public class RelatedsaleandorderController {
      */
         @RequestMapping("queryAll")
         public Map<String,Object> queryAll(Relatedsaleandorder relatedsaleandorder){
-            System.out.println(relatedsaleandorder);
             Map<String,Object> map = new HashMap<>();
             List<Relatedsaleandorder> list = this.relatedsaleandorderService.queryAll(relatedsaleandorder);
             map.put("data",list);

@@ -77,7 +77,7 @@
                             <button class="layui-btn layui-btn-danger" onclick="delAll()">
                                 <i class="layui-icon"></i>批量删除</button>
                             <button class="layui-btn" onclick="openAdd()">
-                                <i class="layui-icon"></i>添加</button></div>
+                                <i class="layui-icon"></i>添加计划商品</button></div>
                         <div class="layui-card-body ">
                             <table class="layui-table layui-form " id="xtable"  >
                                 <thead>
@@ -165,7 +165,6 @@
                     axios.post('relatedsaleandorder/queryAll',data, {headers:{'Content-Type':'application/x-www-form-urlencoded'}}).then(res=>{
                         console.log(res.data.data);
                         this.list=res.data.data;
-
                     }).catch(err=>{
                         alert('请求失败')
                     })
@@ -298,22 +297,34 @@
                             layer.msg(checkStatus.isAll ? '全选': '未全选');
                             break;
                         case 'delAny':
+                            //var data=checkStatus.data[1].sid;
+                            var sid=new Array();
+                            for (var i=0;i<checkStatus.data.length;i++){
+                                var data=checkStatus.data[i].sid;
+                                sid.push(data);
+                            }
+                            //var sid=JSON.stringify(sid);
                             $.ajax({
-                                url:"传",
-                                data:{'id':id},
-                                type:"Post",
-                                dataType:"json",
+                                url:"saleandorder/del",
+                                data:{sid:sid},
+                                type:"post",
+                                traditional:true,
+                                contentType:"application/json",
                                 success:function(data){
-                                    console.log(data);
-                                    layer.msg(data.msg);
-                                    location.reload(); //删除成功后再刷新
+                                    //layer.msg(data);
+                                    layer.open({
+                                        title: '成功'
+                                        ,content: data
+                                    });
+                                    //location.reload(); //删除成功后再刷新
                                 },
                                 error:function(data){
-                                    $.messager.alert('错误',data.msg);
+                                    layer.open({
+                                        title: '错误'
+                                        ,content: data
+                                    });
                                 }
                             });
-                            var data=checkStatus.data;
-                            layer.msg(JSON.stringify(data[0].ordernumber)+"删除成功！");
                             break;
                     };
                 });
@@ -412,9 +423,10 @@
     <script type="text/html" id="toolbarDemo">
         <div class = "layui-btn-container" >
             <button class="layui-btn-danger layui-btn layui-btn-sm" lay-event="delAny"> <i class="layui-icon"></i>批量删除</button></button>
-            <button class = "layui-btn layui-btn-sm" lay-event = "getCheckData" > 获取选中行数据 </button>
-            <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button >
-            <button class = "layui-btn layui-btn-sm" lay-event = "isAll" > 验证是否全选</button>
+            <button class = "layui-btn layui-btn-sm" lay-event = "getCheckData" >添加计划订单</button>
+<!--            <button class = "layui-btn layui-btn-sm" lay-event = "getCheckData" > 获取选中行数据 </button>-->
+<!--            <button class="layui-btn layui-btn-sm" lay-event="getCheckLength">获取选中数目</button >-->
+<!--            <button class = "layui-btn layui-btn-sm" lay-event = "isAll" > 验证是否全选</button>-->
         </div >
     </script>
     <script type="text/html" id="switchTpl">
