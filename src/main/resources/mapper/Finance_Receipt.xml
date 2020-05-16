@@ -4,8 +4,12 @@
     <insert id="addReceipt" parameterType="Receipt">
         insert into receipt values(#{settlementAccountId},#{unitSalesId},#{payee},#{receivableAmount},#{clearingForm},#{settleNum},#{invoicesDate},#{remark})
     </insert>
-    <select id="getAllReceipt">
-        select  * from  receipt
+    <select id="getReceiptRecord">
+        select  * from  receipt where settle_num=#{params} or remark=#{params} or Unit_sales_id=#{params} and  payee=#{payee}
     </select>
+
+    <delete id="delReceipt" >
+        delete from receipt where settle_num=#{settle_num}
+    </delete>
 
 </mapper>

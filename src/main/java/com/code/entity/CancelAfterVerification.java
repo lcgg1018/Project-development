@@ -32,7 +32,14 @@ public class CancelAfterVerification {
    *客户ID
    */
   private long clienteleId;
-
+  /***
+   *转出客户
+   */
+  private String out_consumer;
+  /***
+   * 转入客户
+   */
+  private String income_consumer_id;
 
   public String getSourceListNum() {
     return sourceListNum;
@@ -87,4 +94,19 @@ public class CancelAfterVerification {
     this.clienteleId = clienteleId;
   }
 
+  public String getOut_consumer() {
+    return out_consumer;
+  }
+
+  public void setOut_consumer(String out_consumer) {
+    this.out_consumer = out_consumer;
+  }
+
+  public String getIncome_consumer_id() {
+    return income_consumer_id;
+  }
+
+  public void setIncome_consumer_id(String income_consumer_id) {
+    this.income_consumer_id = income_consumer_id;
+  }
 }
